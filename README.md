@@ -34,8 +34,17 @@ Repositories can import the latest CSS variables to ensure UI components are sty
 #### App.tsx
 
 ```text
-    import 'figmatokenspublic/build/css/_variables.css';
+import 'figmatokenspublic/build/css/_variables.css';
 ```
+
+## Initial Setup
+
+- Clone repo locally
+- Run npm install
+- Install style-dictionary globally: `npm install -g style-dictionary`
+- Generate the styled dictionary setup: `style-dictionary init basic`
+- Delete build and tokens folders
+- Replace content of config.json with the one from here: https://amzn.github.io/style-dictionary/#/config (remove android part and replace scss with css)
 
 ## Contributing
 
