@@ -1,3 +1,7 @@
+<p align="center">
+<img src="public/api3-logo.webp" width="200px" alt="Logo" />
+</p>
+
 # Design Tokens
 
 This repository is dedicated to managing and publishing Design Tokens extracted from Figma. It serves as a central source for design-related assets, which are then transformed into CSS variables. These variables can be utilized across various projects within our organization to ensure design consistency and streamline the development process.
@@ -30,18 +34,8 @@ Repositories can import the latest CSS variables to ensure UI components are sty
 #### App.tsx
 
 ```text
-import 'figmatokenspublic/build/css/_variables.css';
+    import 'figmatokenspublic/build/css/_variables.css';
 ```
-
-### Importing CSS Variables
-
-To use these design tokens in your project, import the CSS file as follows:
-
-```css
-@import url("path-to-design-tokens/design-tokens.css");
-```
-
-Replace `path-to-design-tokens` with the actual path where the design tokens CSS file is hosted.
 
 ## Contributing
 
