@@ -14,7 +14,7 @@ Design Tokens are the visual design atoms of the product’s UI, representing co
 
 1. **Figma Updates**: Designers update and manage Design Tokens in Figma.
 2. **Figma Deployment**: Designers push a commit from Figma to update this repository with the latest tokens.
-3. **Automated Extraction**: Upon changes, a CI script automatically converts the incoming tokens into css and performs a second commit to update the build/css/\_variables.css file.
+3. **Automated Extraction**: Upon changes, a CI script automatically converts the incoming tokens into css and performs a second commit to update the build/css/\variables.css file.
 4. **Distribution**: These CSS variables are then made available for import by other repositories within our organization.
 
 ## Usage
@@ -34,7 +34,7 @@ Repositories can import the latest CSS variables to ensure UI components are sty
 #### App.tsx
 
 ```text
-import 'figmatokenspublic/build/css/_variables.css';
+import 'figmatokenspublic/build/css/variables.css';
 ```
 
 ## Initial Setup
