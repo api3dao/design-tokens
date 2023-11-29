@@ -1,0 +1,11 @@
+{
+  "name": "design-tokens",
+  "version": "1.0.0",
+  "description": "Design tokens for the API3 organization",
+  "scripts": {
+    "build": "style-dictionary build"
+  },
+  "devDependencies": {
+    "style-dictionary": "^3.9.0"
+  }
+}

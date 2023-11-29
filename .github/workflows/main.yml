@@ -1,0 +1,33 @@
+name: Convert tokens to css variables
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  build-and-commit:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: "18"
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Run build
+        run: npm run build
+
+      - name: Commit and push if changes
+        run: |
+          git config --global user.email "actions@users.noreply.github.com"
+          git config --global user.name "GitHub Actions"
+          git add -A
+          git commit -m "Generated build output" -a || exit 0 # This line prevents the action from failing if there's nothing to commit
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
