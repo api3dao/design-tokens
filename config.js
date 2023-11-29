@@ -21,10 +21,10 @@ module.exports = {
       parse: ({ contents, filePath }) => {
         // Rudimentary way to obtain fully qualify references
         const qualifiedContent = contents
-          .replaceAll("{ds.core.", "{contents.theme.global.ds.core.")
+          .replaceAll("{ds.core.", "{contents.global.ds.core.")
           .replaceAll(
             "{core.font-size.REM}",
-            "{contents.theme.global.ds.core.font.size.REM}"
+            "{contents.global.ds.core.font.size.REM}"
           );
 
         return {
