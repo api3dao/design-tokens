@@ -2,9 +2,9 @@ const fs = require("fs");
 const glob = require("glob");
 
 module.exports = {
-  source: ["tokens/**/*.json"],
+  source: ["tokens/converted-tokens.json"],
   platforms: {
-    scss: {
+    css: {
       transformGroup: "css",
       buildPath: "build/css/",
       files: [
@@ -17,15 +17,10 @@ module.exports = {
   },
   parsers: [
     {
-      pattern: /\.json$/,
+      pattern: "tokens/converted-tokens.json",
       parse: ({ contents, filePath }) => {
         // Rudimentary way to obtain fully qualify references
-        const qualifiedContent = contents
-          .replaceAll("{ds.core.", "{contents.global.ds.core.")
-          .replaceAll(
-            "{core.font-size.REM}",
-            "{contents.global.ds.core.font.size.REM}"
-          );
+        const qualifiedContent = contents;
 
         return {
           contents: JSON.parse(qualifiedContent),
