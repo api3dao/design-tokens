@@ -36,10 +36,16 @@ jobs:
         uses: 8398a7/action-slack@v3
         with:
           status: ${{ job.status }}
-          fields: repo,message
           custom_payload: |
             {
               "blocks": [
+                {
+                  "type": "header",
+                  "text": {
+                    "type": "plain_text",
+                    "text": "Figma Design Tokens Update"
+                  }
+                },
                 {
                   "type": "section",
                   "text": {
