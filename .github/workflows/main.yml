@@ -36,7 +36,15 @@ jobs:
         uses: 8398a7/action-slack@v3
         with:
           status: ${{ job.status }}
-          fields: repo,message
+          fields: message
+          custom_payload: |
+            {
+              "type": "section",
+              "text": {
+                "type": "mrkdwn",
+                "text": "Design updated! Commit message: *${{ github.event.head_commit.message }}*"
+              }
+            }
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
