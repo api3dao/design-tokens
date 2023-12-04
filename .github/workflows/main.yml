@@ -35,14 +35,14 @@ jobs:
       - name: Notify Slack about the update
         uses: 8398a7/action-slack@v3
         with:
-          status: ${{ job.status }}
+          status: custom
           fields: message
           custom_payload: |
             {
-              "type": "section",
-              "text": {
-                "type": "mrkdwn",
-                "text": "Design updated! Commit message: *${{ github.event.head_commit.message }}*"
+              type: "section",
+              text: {
+                type: "mrkdwn",
+                text: `Design updated! Commit message: *${process.env.AS_MESSAGE}*`
               }
             }
         env:
