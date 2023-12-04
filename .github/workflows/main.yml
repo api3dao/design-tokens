@@ -39,9 +39,9 @@ jobs:
           fields: message
           custom_payload: |
             {
-              type: "section",
+              type: 'section',
               text: {
-                type: "mrkdwn",
+                type: 'mrkdwn',
                 text: `Design updated! Commit message: *${process.env.AS_MESSAGE}*`
               }
             }
