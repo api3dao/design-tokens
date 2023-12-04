@@ -35,7 +35,7 @@ jobs:
       - name: Notify Slack about the update
         uses: 8398a7/action-slack@v3
         with:
-          status: ${{ job.status }}
+          status: custom
           custom_payload: |
             {
               "blocks": [
@@ -43,14 +43,14 @@ jobs:
                   "type": "header",
                   "text": {
                     "type": "plain_text",
-                    "text": "Figma Design Tokens Update"
+                    "text": "✅ Design Tokens updated!"
                   }
                 },
                 {
                   "type": "section",
                   "text": {
                     "type": "mrkdwn",
-                    "text": "Design updated! Commit message: *${{ github.event.head_commit.message }}*"
+                    "text": "*${{ github.event.head_commit.message }}*"
                   }
                 }
               ]
