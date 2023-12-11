@@ -550,6 +550,14 @@
         }
       },
       "spacing": {
+        "12": {
+          "value": 2,
+          "type": "spacing"
+        },
+        "25": {
+          "value": 4,
+          "type": "spacing"
+        },
         "50": {
           "value": 8,
           "type": "spacing"
@@ -593,6 +601,28 @@
         "base": {
           "value": 0.16,
           "type": "spacing"
+        }
+      },
+      "breakpoints": {
+        "xs": {
+          "value": "360px",
+          "type": "other"
+        },
+        "s": {
+          "value": "600px",
+          "type": "other"
+        },
+        "m": {
+          "value": "1024px",
+          "type": "other"
+        },
+        "l": {
+          "value": "1300px",
+          "type": "other"
+        },
+        "xl": {
+          "value": "1600px",
+          "type": "other"
         }
       }
     },
@@ -1960,10 +1990,6 @@
         }
       }
     }
-  },
-  "image": {
-    "value": "https://drive.google.com/file/d/1n-kU7awUTFu1WHygIG0zLqA0wIMs8tK7/view?usp=drive_link",
-    "type": "asset"
   },
   "tokenSetOrder": {
     "0": {

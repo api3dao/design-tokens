@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Mon, 04 Dec 2023 13:37:11 GMT
+ * Generated on Mon, 11 Dec 2023 20:53:57 GMT
  */
 
 :root {
@@ -131,6 +131,8 @@
   --contents-ds-core-border-radius-m: 6;
   --contents-ds-core-border-radius-l: 8;
   --contents-ds-core-border-width-1: 1;
+  --contents-ds-core-spacing-12: 2;
+  --contents-ds-core-spacing-25: 4;
   --contents-ds-core-spacing-50: 8;
   --contents-ds-core-spacing-100: 16;
   --contents-ds-core-spacing-125: 20;
@@ -142,6 +144,11 @@
   --contents-ds-core-spacing-500: 80;
   --contents-ds-core-spacing-600: 96;
   --contents-ds-core-spacing-base: 0.16;
+  --contents-ds-core-breakpoints-xs: 360px;
+  --contents-ds-core-breakpoints-s: 600px;
+  --contents-ds-core-breakpoints-m: 1024px;
+  --contents-ds-core-breakpoints-l: 1300px;
+  --contents-ds-core-breakpoints-xl: 1600px;
   --contents-ds-semantic-font-heading-1-font-family: Inter;
   --contents-ds-semantic-font-heading-1-font-weight: Semi Bold;
   --contents-ds-semantic-font-heading-1-line-height: 110%;
@@ -447,6 +454,5 @@
   --contents-ds-semantic-font-menu-navigation-3-line-height: 150%;
   --contents-ds-semantic-font-menu-navigation-3-font-size: 12;
   --contents-ds-semantic-font-menu-navigation-3-letter-spacing: 0px;
-  --contents-image: https://drive.google.com/file/d/1n-kU7awUTFu1WHygIG0zLqA0wIMs8tK7/view?usp=drive_link;
   --contents-token-set-order-0: global;
 }
