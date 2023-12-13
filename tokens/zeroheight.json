@@ -2,7 +2,7 @@
   "global": {
     "ds": {
       "core": {
-        "color": {
+        "$type":"color",
           "base": {
             "light": {
               "$value": "#f3f3f3",
