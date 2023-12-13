@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Wed, 13 Dec 2023 22:17:09 GMT
+ * Generated on Wed, 13 Dec 2023 23:16:39 GMT
  */
 
 :root {
@@ -149,6 +149,8 @@
   --contents-ds-core-breakpoints-m: 1024px;
   --contents-ds-core-breakpoints-l: 1300px;
   --contents-ds-core-breakpoints-xl: 1600px;
+  --contents-ds-core-shadow-dropdown: [object Object];
+  --contents-ds-core-icons-tooltip: https://api3dao.github.io/design-tokens/assets/images/20px/addCart01-20px.svg;
   --contents-ds-semantic-font-heading-1-font-family: Inter;
   --contents-ds-semantic-font-heading-1-font-weight: Semi Bold;
   --contents-ds-semantic-font-heading-1-line-height: 110%;

@@ -624,6 +624,25 @@
           "value": "1600px",
           "type": "other"
         }
+      },
+      "shadow": {
+        "dropdown": {
+          "value": {
+            "x": 0,
+            "y": 4,
+            "blur": 20,
+            "spread": 0,
+            "color": "#101211e6",
+            "type": "dropShadow"
+          },
+          "type": "boxShadow"
+        }
+      },
+      "icons": {
+        "tooltip": {
+          "value": "https://api3dao.github.io/design-tokens/assets/images/20px/addCart01-20px.svg",
+          "type": "asset"
+        }
       }
     },
     "semantic": {
