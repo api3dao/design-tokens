@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Design tokens for the API3 organization",
   "scripts": {
-    "build": "token-transformer --expandTypography tokens/tokens.json tokens/converted-tokens.json && style-dictionary build"
+    "build": "token-transformer --expandTypography tokens/tokens.json tokens/converted-tokens.json && node transformToW3C.js && style-dictionary build"
   },
   "devDependencies": {
     "style-dictionary": "^3.9.0",
