@@ -637,12 +637,6 @@
           },
           "type": "boxShadow"
         }
-      },
-      "icons": {
-        "tooltip": {
-          "value": "https://api3dao.github.io/design-tokens/assets/images/20px/addCart01-20px.svg",
-          "type": "asset"
-        }
       }
     },
     "semantic": {
