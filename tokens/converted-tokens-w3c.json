@@ -628,14 +628,14 @@
       "shadow": {
         "dropdown": {
           "$value": {
-            "x": "0px",
-            "y": "4px",
+            "offsetX": "0px",
+            "offsetY": "4px",
             "blur": "20px",
             "spread": "0px",
             "color": "#101211e6",
-            "$type": "dropShadow"
+            "$type": "shadow"
           },
-          "$type": "boxShadow"
+          "$type": "shadow"
         }
       }
     },
