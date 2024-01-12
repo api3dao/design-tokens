@@ -628,10 +628,10 @@
       "shadow": {
         "dropdown": {
           "$value": {
-            "x": 0,
-            "y": 4,
-            "blur": 20,
-            "spread": 0,
+            "x": "0px",
+            "y": "4px",
+            "blur": "20px",
+            "spread": "0px",
             "color": "#101211e6",
             "$type": "dropShadow"
           },
