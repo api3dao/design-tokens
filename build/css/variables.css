@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Fri, 12 Jan 2024 15:48:33 GMT
+ * Generated on Fri, 12 Jan 2024 19:20:24 GMT
  */
 
 :root {
@@ -149,7 +149,7 @@
   --contents-ds-core-breakpoints-m: 1024px;
   --contents-ds-core-breakpoints-l: 1300px;
   --contents-ds-core-breakpoints-xl: 1600px;
-  --contents-ds-core-shadow-dropdown: [object Object];
+  --contents-ds-semantic-shadow-dropdown: [object Object];
   --contents-ds-semantic-font-heading-1-font-family: Inter;
   --contents-ds-semantic-font-heading-1-font-weight: semi-bold;
   --contents-ds-semantic-font-heading-1-line-height: 110%;
@@ -455,5 +455,59 @@
   --contents-ds-semantic-font-menu-navigation-3-line-height: 150%;
   --contents-ds-semantic-font-menu-navigation-3-font-size: 12;
   --contents-ds-semantic-font-menu-navigation-3-letter-spacing: 0px;
+  --contents-ds-semantic-input-border-disabled: [object Object];
+  --contents-ds-semantic-input-border-default: [object Object];
+  --contents-ds-semantic-input-border-focused: [object Object];
+  --contents-ds-semantic-input-border-error-focused: [object Object];
+  --contents-ds-semantic-input-border-error-default: [object Object];
+  --contents-ds-semantic-color-action-error-25: #FFEEE8;
+  --contents-ds-semantic-color-action-error-50: #FFD3C6;
+  --contents-ds-semantic-color-action-error-100: #FFB9A3;
+  --contents-ds-semantic-color-action-error-200: #ff9f81;
+  --contents-ds-semantic-color-action-error-300: #FF855E;
+  --contents-ds-semantic-color-action-error-400: #FF6A3C;
+  --contents-ds-semantic-color-action-error-500: #ff5019;
+  --contents-ds-semantic-color-action-error-600: #D14215;
+  --contents-ds-semantic-color-action-error-700: #A33310;
+  --contents-ds-semantic-color-action-error-800: #75250C;
+  --contents-ds-semantic-color-action-error-900: #471607;
+  --contents-ds-semantic-color-action-success-25: #E8F8EF;
+  --contents-ds-semantic-color-action-success-50: #C6EED8;
+  --contents-ds-semantic-color-action-success-100: #A3E3C1;
+  --contents-ds-semantic-color-action-success-200: #81D9A9;
+  --contents-ds-semantic-color-action-success-300: #5ECF92;
+  --contents-ds-semantic-color-action-success-400: #3CC47A;
+  --contents-ds-semantic-color-action-success-500: #19BA63;
+  --contents-ds-semantic-color-action-success-600: #159951;
+  --contents-ds-semantic-color-action-success-700: #10773F;
+  --contents-ds-semantic-color-action-success-800: #0C562E;
+  --contents-ds-semantic-color-action-success-900: #07341C;
+  --contents-ds-semantic-color-action-warning-25: #FFF7E8;
+  --contents-ds-semantic-color-action-warning-50: #FFECC6;
+  --contents-ds-semantic-color-action-warning-100: #FFE0A3;
+  --contents-ds-semantic-color-action-warning-200: #FFD481;
+  --contents-ds-semantic-color-action-warning-300: #FFC85E;
+  --contents-ds-semantic-color-action-warning-400: #FFBD3C;
+  --contents-ds-semantic-color-action-warning-500: #FFB119;
+  --contents-ds-semantic-color-action-warning-600: #D19115;
+  --contents-ds-semantic-color-action-warning-700: #A37110;
+  --contents-ds-semantic-color-action-warning-800: #75510C;
+  --contents-ds-semantic-color-action-warning-900: #473207;
+  --contents-ds-semantic-color-action-info-25: #E8F4FF;
+  --contents-ds-semantic-color-action-info-50: #C6E4FF;
+  --contents-ds-semantic-color-action-info-100: #A4D3FF;
+  --contents-ds-semantic-color-action-info-200: #82C3FF;
+  --contents-ds-semantic-color-action-info-300: #60B3FF;
+  --contents-ds-semantic-color-action-info-400: #3EA2FF;
+  --contents-ds-semantic-color-action-info-500: #1C92FF;
+  --contents-ds-semantic-color-action-info-600: #1778D1;
+  --contents-ds-semantic-color-action-info-700: #125DA3;
+  --contents-ds-semantic-color-action-info-800: #0D4375;
+  --contents-ds-semantic-color-action-info-900: #082947;
+  --contents-ds-semantic-search-border-disabled: [object Object];
+  --contents-ds-semantic-search-border-default: [object Object];
+  --contents-ds-semantic-search-border-focused: [object Object];
+  --contents-ds-semantic-search-border-error-focused: [object Object];
+  --contents-ds-semantic-search-border-error-neutral: [object Object];
   --contents-token-set-order-0: global;
 }
