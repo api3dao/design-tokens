@@ -385,121 +385,121 @@
         "family": {
           "default": {
             "$value": "Inter",
-            "$type": "fontFamilies"
+            "$type": "fontFamily"
           }
         },
         "weight": {
           "300": {
             "$value": "Light",
-            "$type": "fontWeights"
+            "$type": "fontWeight"
           },
           "400": {
             "$value": "Regular",
-            "$type": "fontWeights"
+            "$type": "fontWeight"
           },
           "500": {
             "$value": "Medium",
-            "$type": "fontWeights"
+            "$type": "fontWeight"
           },
           "600": {
             "$value": "Semi Bold",
-            "$type": "fontWeights"
+            "$type": "fontWeight"
           },
           "700": {
             "$value": "Bold",
-            "$type": "fontWeights"
+            "$type": "fontWeight"
           },
           "800": {
             "$value": "Extra Bold",
-            "$type": "fontWeights"
+            "$type": "fontWeight"
           },
           "900": {
             "$value": "Black",
-            "$type": "fontWeights"
+            "$type": "fontWeight"
           }
         },
         "line-height": {
           "xxxs": {
             "$value": "100%",
-            "$type": "lineHeights"
+            "$type": "lineHeight"
           },
           "xxs": {
             "$value": "110%",
-            "$type": "lineHeights"
+            "$type": "lineHeight"
           },
           "xs": {
             "$value": "130%",
-            "$type": "lineHeights"
+            "$type": "lineHeight"
           },
           "s": {
             "$value": "140%",
-            "$type": "lineHeights"
+            "$type": "lineHeight"
           },
           "m": {
             "$value": "150%",
-            "$type": "lineHeights"
+            "$type": "lineHeight"
           },
           "l": {
             "$value": "170%",
-            "$type": "lineHeights"
+            "$type": "lineHeight"
           }
         },
         "size": {
           "62": {
             "$value": 10,
-            "$type": "fontSizes"
+            "$type": "fontSize"
           },
           "75": {
             "$value": 12,
-            "$type": "fontSizes"
+            "$type": "fontSize"
           },
           "87": {
             "$value": 14,
-            "$type": "fontSizes"
+            "$type": "fontSize"
           },
           "100": {
             "$value": 16,
-            "$type": "fontSizes"
+            "$type": "fontSize"
           },
           "112": {
             "$value": 18,
-            "$type": "fontSizes"
+            "$type": "fontSize"
           },
           "125": {
             "$value": 20,
-            "$type": "fontSizes"
+            "$type": "fontSize"
           },
           "137": {
             "$value": 22,
-            "$type": "fontSizes"
+            "$type": "fontSize"
           },
           "200": {
             "$value": 32,
-            "$type": "fontSizes"
+            "$type": "fontSize"
           },
           "225": {
             "$value": 36,
-            "$type": "fontSizes"
+            "$type": "fontSize"
           },
           "250": {
             "$value": 40,
-            "$type": "fontSizes"
+            "$type": "fontSize"
           },
           "300": {
             "$value": 48,
-            "$type": "fontSizes"
+            "$type": "fontSize"
           },
           "350": {
             "$value": 56,
-            "$type": "fontSizes"
+            "$type": "fontSize"
           },
           "400": {
             "$value": 64,
-            "$type": "fontSizes"
+            "$type": "fontSize"
           },
           "base": {
             "$value": 0.16,
-            "$type": "fontSizes",
+            "$type": "fontSize",
             "description": "Depending on what unit you want to add to your font-sizes, you have to change your calculation here:\nIf you are adding px (or nothing which defaults to px) in your font-size tokens, use this calculation here: token ds.core.scale / 100\nIf you are adding rem, use: 1/100"
           }
         }
@@ -645,19 +645,19 @@
           "1": {
             "fontFamily": {
               "$value": "Inter",
-              "$type": "fontFamilies"
+              "$type": "fontFamily"
             },
             "fontWeight": {
               "$value": "Semi Bold",
-              "$type": "fontWeights"
+              "$type": "fontWeight"
             },
             "lineHeight": {
               "$value": "110%",
-              "$type": "lineHeights"
+              "$type": "lineHeight"
             },
             "fontSize": {
               "$value": 64,
-              "$type": "fontSizes"
+              "$type": "fontSize"
             },
             "letterSpacing": {
               "$value": "0px",
@@ -667,19 +667,19 @@
           "2": {
             "fontFamily": {
               "$value": "Inter",
-              "$type": "fontFamilies"
+              "$type": "fontFamily"
             },
             "fontWeight": {
               "$value": "Semi Bold",
-              "$type": "fontWeights"
+              "$type": "fontWeight"
             },
             "lineHeight": {
               "$value": "110%",
-              "$type": "lineHeights"
+              "$type": "lineHeight"
             },
             "fontSize": {
               "$value": 56,
-              "$type": "fontSizes"
+              "$type": "fontSize"
             },
             "letterSpacing": {
               "$value": "-1.5px",
@@ -689,19 +689,19 @@
           "3": {
             "fontFamily": {
               "$value": "Inter",
-              "$type": "fontFamilies"
+              "$type": "fontFamily"
             },
             "fontWeight": {
               "$value": "Semi Bold",
-              "$type": "fontWeights"
+              "$type": "fontWeight"
             },
             "lineHeight": {
               "$value": "110%",
-              "$type": "lineHeights"
+              "$type": "lineHeight"
             },
             "fontSize": {
               "$value": 48,
-              "$type": "fontSizes"
+              "$type": "fontSize"
             },
             "letterSpacing": {
               "$value": "-1.5px",
@@ -711,19 +711,19 @@
           "4": {
             "fontFamily": {
               "$value": "Inter",
-              "$type": "fontFamilies"
+              "$type": "fontFamily"
             },
             "fontWeight": {
               "$value": "Semi Bold",
-              "$type": "fontWeights"
+              "$type": "fontWeight"
             },
             "lineHeight": {
               "$value": "110%",
-              "$type": "lineHeights"
+              "$type": "lineHeight"
             },
             "fontSize": {
               "$value": 40,
-              "$type": "fontSizes"
+              "$type": "fontSize"
             },
             "letterSpacing": {
               "$value": "-1.5px",
@@ -733,19 +733,19 @@
           "5": {
             "fontFamily": {
               "$value": "Inter",
-              "$type": "fontFamilies"
+              "$type": "fontFamily"
             },
             "fontWeight": {
               "$value": "Semi Bold",
-              "$type": "fontWeights"
+              "$type": "fontWeight"
             },
             "lineHeight": {
               "$value": "130%",
-              "$type": "lineHeights"
+              "$type": "lineHeight"
             },
             "fontSize": {
               "$value": 36,
-              "$type": "fontSizes"
+              "$type": "fontSize"
             },
             "letterSpacing": {
               "$value": "-1.5px",
@@ -755,19 +755,19 @@
           "6": {
             "fontFamily": {
               "$value": "Inter",
-              "$type": "fontFamilies"
+              "$type": "fontFamily"
             },
             "fontWeight": {
               "$value": "Semi Bold",
-              "$type": "fontWeights"
+              "$type": "fontWeight"
             },
             "lineHeight": {
               "$value": "130%",
-              "$type": "lineHeights"
+              "$type": "lineHeight"
             },
             "fontSize": {
               "$value": 32,
-              "$type": "fontSizes"
+              "$type": "fontSize"
             },
             "letterSpacing": {
               "$value": "0px",
@@ -777,19 +777,19 @@
           "7": {
             "fontFamily": {
               "$value": "Inter",
-              "$type": "fontFamilies"
+              "$type": "fontFamily"
             },
             "fontWeight": {
               "$value": "Semi Bold",
-              "$type": "fontWeights"
+              "$type": "fontWeight"
             },
             "lineHeight": {
               "$value": "130%",
-              "$type": "lineHeights"
+              "$type": "lineHeight"
             },
             "fontSize": {
               "$value": 22,
-              "$type": "fontSizes"
+              "$type": "fontSize"
             },
             "letterSpacing": {
               "$value": "0px",
@@ -801,19 +801,19 @@
           "1": {
             "fontFamily": {
               "$value": "Inter",
-              "$type": "fontFamilies"
+              "$type": "fontFamily"
             },
             "fontWeight": {
               "$value": "Bold",
-              "$type": "fontWeights"
+              "$type": "fontWeight"
             },
             "lineHeight": {
               "$value": "130%",
-              "$type": "lineHeights"
+              "$type": "lineHeight"
             },
             "fontSize": {
               "$value": 32,
-              "$type": "fontSizes"
+              "$type": "fontSize"
             },
             "letterSpacing": {
               "$value": "0px",
@@ -823,19 +823,19 @@
           "2": {
             "fontFamily": {
               "$value": "Inter",
-              "$type": "fontFamilies"
+              "$type": "fontFamily"
             },
             "fontWeight": {
               "$value": "Semi Bold",
-              "$type": "fontWeights"
+              "$type": "fontWeight"
             },
             "lineHeight": {
               "$value": "130%",
-              "$type": "lineHeights"
+              "$type": "lineHeight"
             },
             "fontSize": {
               "$value": 32,
-              "$type": "fontSizes"
+              "$type": "fontSize"
             },
             "letterSpacing": {
               "$value": "0px",
@@ -845,19 +845,19 @@
           "3": {
             "fontFamily": {
               "$value": "Inter",
-              "$type": "fontFamilies"
+              "$type": "fontFamily"
             },
             "fontWeight": {
               "$value": "Regular",
-              "$type": "fontWeights"
+              "$type": "fontWeight"
             },
             "lineHeight": {
               "$value": "130%",
-              "$type": "lineHeights"
+              "$type": "lineHeight"
             },
             "fontSize": {
               "$value": 32,
-              "$type": "fontSizes"
+              "$type": "fontSize"
             },
             "letterSpacing": {
               "$value": "0px",
@@ -867,19 +867,19 @@
           "4": {
             "fontFamily": {
               "$value": "Inter",
-              "$type": "fontFamilies"
+              "$type": "fontFamily"
             },
             "fontWeight": {
               "$value": "Bold",
-              "$type": "fontWeights"
+              "$type": "fontWeight"
             },
             "lineHeight": {
               "$value": "130%",
-              "$type": "lineHeights"
+              "$type": "lineHeight"
             },
             "fontSize": {
               "$value": 22,
-              "$type": "fontSizes"
+              "$type": "fontSize"
             },
             "letterSpacing": {
               "$value": "0px",
@@ -889,19 +889,19 @@
           "5": {
             "fontFamily": {
               "$value": "Inter",
-              "$type": "fontFamilies"
+              "$type": "fontFamily"
             },
             "fontWeight": {
               "$value": "Semi Bold",
-              "$type": "fontWeights"
+              "$type": "fontWeight"
             },
             "lineHeight": {
               "$value": "130%",
-              "$type": "lineHeights"
+              "$type": "lineHeight"
             },
             "fontSize": {
               "$value": 22,
-              "$type": "fontSizes"
+              "$type": "fontSize"
             },
             "letterSpacing": {
               "$value": "0px",
@@ -911,19 +911,19 @@
           "6": {
             "fontFamily": {
               "$value": "Inter",
-              "$type": "fontFamilies"
+              "$type": "fontFamily"
             },
             "fontWeight": {
               "$value": "Bold",
-              "$type": "fontWeights"
+              "$type": "fontWeight"
             },
             "lineHeight": {
               "$value": "130%",
-              "$type": "lineHeights"
+              "$type": "lineHeight"
             },
             "fontSize": {
               "$value": 22,
-              "$type": "fontSizes"
+              "$type": "fontSize"
             },
             "letterSpacing": {
               "$value": "0px",
@@ -933,19 +933,19 @@
           "7": {
             "fontFamily": {
               "$value": "Inter",
-              "$type": "fontFamilies"
+              "$type": "fontFamily"
             },
             "fontWeight": {
               "$value": "Bold",
-              "$type": "fontWeights"
+              "$type": "fontWeight"
             },
             "lineHeight": {
               "$value": "150%",
-              "$type": "lineHeights"
+              "$type": "lineHeight"
             },
             "fontSize": {
               "$value": 20,
-              "$type": "fontSizes"
+              "$type": "fontSize"
             },
             "letterSpacing": {
               "$value": "0px",
@@ -955,19 +955,19 @@
           "8": {
             "fontFamily": {
               "$value": "Inter",
-              "$type": "fontFamilies"
+              "$type": "fontFamily"
             },
             "fontWeight": {
               "$value": "Semi Bold",
-              "$type": "fontWeights"
+              "$type": "fontWeight"
             },
             "lineHeight": {
               "$value": "150%",
-              "$type": "lineHeights"
+              "$type": "lineHeight"
             },
             "fontSize": {
               "$value": 20,
-              "$type": "fontSizes"
+              "$type": "fontSize"
             },
             "letterSpacing": {
               "$value": "0px",
@@ -977,19 +977,19 @@
           "9": {
             "fontFamily": {
               "$value": "Inter",
-              "$type": "fontFamilies"
+              "$type": "fontFamily"
             },
             "fontWeight": {
               "$value": "Regular",
-              "$type": "fontWeights"
+              "$type": "fontWeight"
             },
             "lineHeight": {
               "$value": "150%",
-              "$type": "lineHeights"
+              "$type": "lineHeight"
             },
             "fontSize": {
               "$value": 20,
-              "$type": "fontSizes"
+              "$type": "fontSize"
             },
             "letterSpacing": {
               "$value": "0px",
@@ -999,19 +999,19 @@
           "10": {
             "fontFamily": {
               "$value": "Inter",
-              "$type": "fontFamilies"
+              "$type": "fontFamily"
             },
             "fontWeight": {
               "$value": "Bold",
-              "$type": "fontWeights"
+              "$type": "fontWeight"
             },
             "lineHeight": {
               "$value": "140%",
-              "$type": "lineHeights"
+              "$type": "lineHeight"
             },
             "fontSize": {
               "$value": 18,
-              "$type": "fontSizes"
+              "$type": "fontSize"
             },
             "letterSpacing": {
               "$value": "0px",
@@ -1021,19 +1021,19 @@
           "11": {
             "fontFamily": {
               "$value": "Inter",
-              "$type": "fontFamilies"
+              "$type": "fontFamily"
             },
             "fontWeight": {
               "$value": "Semi Bold",
-              "$type": "fontWeights"
+              "$type": "fontWeight"
             },
             "lineHeight": {
               "$value": "140%",
-              "$type": "lineHeights"
+              "$type": "lineHeight"
             },
             "fontSize": {
               "$value": 18,
-              "$type": "fontSizes"
+              "$type": "fontSize"
             },
             "letterSpacing": {
               "$value": "0px",
@@ -1043,19 +1043,19 @@
           "12": {
             "fontFamily": {
               "$value": "Inter",
-              "$type": "fontFamilies"
+              "$type": "fontFamily"
             },
             "fontWeight": {
               "$value": "Regular",
-              "$type": "fontWeights"
+              "$type": "fontWeight"
             },
             "lineHeight": {
               "$value": "140%",
-              "$type": "lineHeights"
+              "$type": "lineHeight"
             },
             "fontSize": {
               "$value": 18,
-              "$type": "fontSizes"
+              "$type": "fontSize"
             },
             "letterSpacing": {
               "$value": "0px",
@@ -1067,19 +1067,19 @@
           "1": {
             "fontFamily": {
               "$value": "Inter",
-              "$type": "fontFamilies"
+              "$type": "fontFamily"
             },
             "fontWeight": {
               "$value": "Bold",
-              "$type": "fontWeights"
+              "$type": "fontWeight"
             },
             "lineHeight": {
               "$value": "150%",
-              "$type": "lineHeights"
+              "$type": "lineHeight"
             },
             "fontSize": {
               "$value": 22,
-              "$type": "fontSizes"
+              "$type": "fontSize"
             },
             "letterSpacing": {
               "$value": "0px",
@@ -1089,19 +1089,19 @@
           "2": {
             "fontFamily": {
               "$value": "Inter",
-              "$type": "fontFamilies"
+              "$type": "fontFamily"
             },
             "fontWeight": {
               "$value": "Semi Bold",
-              "$type": "fontWeights"
+              "$type": "fontWeight"
             },
             "lineHeight": {
               "$value": "150%",
-              "$type": "lineHeights"
+              "$type": "lineHeight"
             },
             "fontSize": {
               "$value": 22,
-              "$type": "fontSizes"
+              "$type": "fontSize"
             },
             "letterSpacing": {
               "$value": "0px",
@@ -1111,19 +1111,19 @@
           "3": {
             "fontFamily": {
               "$value": "Inter",
-              "$type": "fontFamilies"
+              "$type": "fontFamily"
             },
             "fontWeight": {
               "$value": "Regular",
-              "$type": "fontWeights"
+              "$type": "fontWeight"
             },
             "lineHeight": {
               "$value": "150%",
-              "$type": "lineHeights"
+              "$type": "lineHeight"
             },
             "fontSize": {
               "$value": 22,
-              "$type": "fontSizes"
+              "$type": "fontSize"
             },
             "letterSpacing": {
               "$value": "0px",
@@ -1133,19 +1133,19 @@
           "4": {
             "fontFamily": {
               "$value": "Inter",
-              "$type": "fontFamilies"
+              "$type": "fontFamily"
             },
             "fontWeight": {
               "$value": "Bold",
-              "$type": "fontWeights"
+              "$type": "fontWeight"
             },
             "lineHeight": {
               "$value": "150%",
-              "$type": "lineHeights"
+              "$type": "lineHeight"
             },
             "fontSize": {
               "$value": 20,
-              "$type": "fontSizes"
+              "$type": "fontSize"
             },
             "letterSpacing": {
               "$value": "0px",
@@ -1155,19 +1155,19 @@
           "5": {
             "fontFamily": {
               "$value": "Inter",
-              "$type": "fontFamilies"
+              "$type": "fontFamily"
             },
             "fontWeight": {
               "$value": "Semi Bold",
-              "$type": "fontWeights"
+              "$type": "fontWeight"
             },
             "lineHeight": {
               "$value": "150%",
-              "$type": "lineHeights"
+              "$type": "lineHeight"
             },
             "fontSize": {
               "$value": 20,
-              "$type": "fontSizes"
+              "$type": "fontSize"
             },
             "letterSpacing": {
               "$value": "0px",
@@ -1177,19 +1177,19 @@
           "6": {
             "fontFamily": {
               "$value": "Inter",
-              "$type": "fontFamilies"
+              "$type": "fontFamily"
             },
             "fontWeight": {
               "$value": "Regular",
-              "$type": "fontWeights"
+              "$type": "fontWeight"
             },
             "lineHeight": {
               "$value": "150%",
-              "$type": "lineHeights"
+              "$type": "lineHeight"
             },
             "fontSize": {
               "$value": 20,
-              "$type": "fontSizes"
+              "$type": "fontSize"
             },
             "letterSpacing": {
               "$value": "0px",
@@ -1199,19 +1199,19 @@
           "7": {
             "fontFamily": {
               "$value": "Inter",
-              "$type": "fontFamilies"
+              "$type": "fontFamily"
             },
             "fontWeight": {
               "$value": "Bold",
-              "$type": "fontWeights"
+              "$type": "fontWeight"
             },
             "lineHeight": {
               "$value": "150%",
-              "$type": "lineHeights"
+              "$type": "lineHeight"
             },
             "fontSize": {
               "$value": 18,
-              "$type": "fontSizes"
+              "$type": "fontSize"
             },
             "letterSpacing": {
               "$value": "0px",
@@ -1221,19 +1221,19 @@
           "8": {
             "fontFamily": {
               "$value": "Inter",
-              "$type": "fontFamilies"
+              "$type": "fontFamily"
             },
             "fontWeight": {
               "$value": "Semi Bold",
-              "$type": "fontWeights"
+              "$type": "fontWeight"
             },
             "lineHeight": {
               "$value": "150%",
-              "$type": "lineHeights"
+              "$type": "lineHeight"
             },
             "fontSize": {
               "$value": 18,
-              "$type": "fontSizes"
+              "$type": "fontSize"
             },
             "letterSpacing": {
               "$value": "0px",
@@ -1243,19 +1243,19 @@
           "9": {
             "fontFamily": {
               "$value": "Inter",
-              "$type": "fontFamilies"
+              "$type": "fontFamily"
             },
             "fontWeight": {
               "$value": "Regular",
-              "$type": "fontWeights"
+              "$type": "fontWeight"
             },
             "lineHeight": {
               "$value": "150%",
-              "$type": "lineHeights"
+              "$type": "lineHeight"
             },
             "fontSize": {
               "$value": 18,
-              "$type": "fontSizes"
+              "$type": "fontSize"
             },
             "letterSpacing": {
               "$value": "0px",
@@ -1267,19 +1267,19 @@
           "1": {
             "fontFamily": {
               "$value": "Inter",
-              "$type": "fontFamilies"
+              "$type": "fontFamily"
             },
             "fontWeight": {
               "$value": "Bold",
-              "$type": "fontWeights"
+              "$type": "fontWeight"
             },
             "lineHeight": {
               "$value": "150%",
-              "$type": "lineHeights"
+              "$type": "lineHeight"
             },
             "fontSize": {
               "$value": 20,
-              "$type": "fontSizes"
+              "$type": "fontSize"
             },
             "letterSpacing": {
               "$value": "0px",
@@ -1289,19 +1289,19 @@
           "2": {
             "fontFamily": {
               "$value": "Inter",
-              "$type": "fontFamilies"
+              "$type": "fontFamily"
             },
             "fontWeight": {
               "$value": "Semi Bold",
-              "$type": "fontWeights"
+              "$type": "fontWeight"
             },
             "lineHeight": {
               "$value": "150%",
-              "$type": "lineHeights"
+              "$type": "lineHeight"
             },
             "fontSize": {
               "$value": 20,
-              "$type": "fontSizes"
+              "$type": "fontSize"
             },
             "letterSpacing": {
               "$value": "0px",
@@ -1311,19 +1311,19 @@
           "3": {
             "fontFamily": {
               "$value": "Inter",
-              "$type": "fontFamilies"
+              "$type": "fontFamily"
             },
             "fontWeight": {
               "$value": "Regular",
-              "$type": "fontWeights"
+              "$type": "fontWeight"
             },
             "lineHeight": {
               "$value": "150%",
-              "$type": "lineHeights"
+              "$type": "lineHeight"
             },
             "fontSize": {
               "$value": 20,
-              "$type": "fontSizes"
+              "$type": "fontSize"
             },
             "letterSpacing": {
               "$value": "0px",
@@ -1333,19 +1333,19 @@
           "4": {
             "fontFamily": {
               "$value": "Inter",
-              "$type": "fontFamilies"
+              "$type": "fontFamily"
             },
             "fontWeight": {
               "$value": "Bold",
-              "$type": "fontWeights"
+              "$type": "fontWeight"
             },
             "lineHeight": {
               "$value": "140%",
-              "$type": "lineHeights"
+              "$type": "lineHeight"
             },
             "fontSize": {
               "$value": 16,
-              "$type": "fontSizes"
+              "$type": "fontSize"
             },
             "letterSpacing": {
               "$value": "0px",
@@ -1355,19 +1355,19 @@
           "5": {
             "fontFamily": {
               "$value": "Inter",
-              "$type": "fontFamilies"
+              "$type": "fontFamily"
             },
             "fontWeight": {
               "$value": "Semi Bold",
-              "$type": "fontWeights"
+              "$type": "fontWeight"
             },
             "lineHeight": {
               "$value": "140%",
-              "$type": "lineHeights"
+              "$type": "lineHeight"
             },
             "fontSize": {
               "$value": 16,
-              "$type": "fontSizes"
+              "$type": "fontSize"
             },
             "letterSpacing": {
               "$value": "0px",
@@ -1377,19 +1377,19 @@
           "6": {
             "fontFamily": {
               "$value": "Inter",
-              "$type": "fontFamilies"
+              "$type": "fontFamily"
             },
             "fontWeight": {
               "$value": "Regular",
-              "$type": "fontWeights"
+              "$type": "fontWeight"
             },
             "lineHeight": {
               "$value": "140%",
-              "$type": "lineHeights"
+              "$type": "lineHeight"
             },
             "fontSize": {
               "$value": 16,
-              "$type": "fontSizes"
+              "$type": "fontSize"
             },
             "letterSpacing": {
               "$value": "0px",
@@ -1399,19 +1399,19 @@
           "7": {
             "fontFamily": {
               "$value": "Inter",
-              "$type": "fontFamilies"
+              "$type": "fontFamily"
             },
             "fontWeight": {
               "$value": "Bold",
-              "$type": "fontWeights"
+              "$type": "fontWeight"
             },
             "lineHeight": {
               "$value": "140%",
-              "$type": "lineHeights"
+              "$type": "lineHeight"
             },
             "fontSize": {
               "$value": 14,
-              "$type": "fontSizes"
+              "$type": "fontSize"
             },
             "letterSpacing": {
               "$value": "0px",
@@ -1421,19 +1421,19 @@
           "8": {
             "fontFamily": {
               "$value": "Inter",
-              "$type": "fontFamilies"
+              "$type": "fontFamily"
             },
             "fontWeight": {
               "$value": "Semi Bold",
-              "$type": "fontWeights"
+              "$type": "fontWeight"
             },
             "lineHeight": {
               "$value": "140%",
-              "$type": "lineHeights"
+              "$type": "lineHeight"
             },
             "fontSize": {
               "$value": 14,
-              "$type": "fontSizes"
+              "$type": "fontSize"
             },
             "letterSpacing": {
               "$value": "0px",
@@ -1443,19 +1443,19 @@
           "9": {
             "fontFamily": {
               "$value": "Inter",
-              "$type": "fontFamilies"
+              "$type": "fontFamily"
             },
             "fontWeight": {
               "$value": "Regular",
-              "$type": "fontWeights"
+              "$type": "fontWeight"
             },
             "lineHeight": {
               "$value": "140%",
-              "$type": "lineHeights"
+              "$type": "lineHeight"
             },
             "fontSize": {
               "$value": 14,
-              "$type": "fontSizes"
+              "$type": "fontSize"
             },
             "letterSpacing": {
               "$value": "0px",
@@ -1465,19 +1465,19 @@
           "10": {
             "fontFamily": {
               "$value": "Inter",
-              "$type": "fontFamilies"
+              "$type": "fontFamily"
             },
             "fontWeight": {
               "$value": "Regular",
-              "$type": "fontWeights"
+              "$type": "fontWeight"
             },
             "lineHeight": {
               "$value": "140%",
-              "$type": "lineHeights"
+              "$type": "lineHeight"
             },
             "fontSize": {
               "$value": 12,
-              "$type": "fontSizes"
+              "$type": "fontSize"
             },
             "letterSpacing": {
               "$value": "0px",
@@ -1489,19 +1489,19 @@
           "1": {
             "fontFamily": {
               "$value": "Inter",
-              "$type": "fontFamilies"
+              "$type": "fontFamily"
             },
             "fontWeight": {
               "$value": "Regular",
-              "$type": "fontWeights"
+              "$type": "fontWeight"
             },
             "lineHeight": {
               "$value": "170%",
-              "$type": "lineHeights"
+              "$type": "lineHeight"
             },
             "fontSize": {
               "$value": 12,
-              "$type": "fontSizes"
+              "$type": "fontSize"
             },
             "letterSpacing": {
               "$value": "0px",
@@ -1511,19 +1511,19 @@
           "2": {
             "fontFamily": {
               "$value": "Inter",
-              "$type": "fontFamilies"
+              "$type": "fontFamily"
             },
             "fontWeight": {
               "$value": "Regular",
-              "$type": "fontWeights"
+              "$type": "fontWeight"
             },
             "lineHeight": {
               "$value": "170%",
-              "$type": "lineHeights"
+              "$type": "lineHeight"
             },
             "fontSize": {
               "$value": 10,
-              "$type": "fontSizes"
+              "$type": "fontSize"
             },
             "letterSpacing": {
               "$value": "0px",
@@ -1535,19 +1535,19 @@
           "1": {
             "fontFamily": {
               "$value": "Inter",
-              "$type": "fontFamilies"
+              "$type": "fontFamily"
             },
             "fontWeight": {
               "$value": "Semi Bold",
-              "$type": "fontWeights"
+              "$type": "fontWeight"
             },
             "lineHeight": {
               "$value": "100%",
-              "$type": "lineHeights"
+              "$type": "lineHeight"
             },
             "fontSize": {
               "$value": 18,
-              "$type": "fontSizes"
+              "$type": "fontSize"
             },
             "letterSpacing": {
               "$value": "0.3px",
@@ -1557,19 +1557,19 @@
           "2": {
             "fontFamily": {
               "$value": "Inter",
-              "$type": "fontFamilies"
+              "$type": "fontFamily"
             },
             "fontWeight": {
               "$value": "Semi Bold",
-              "$type": "fontWeights"
+              "$type": "fontWeight"
             },
             "lineHeight": {
               "$value": "100%",
-              "$type": "lineHeights"
+              "$type": "lineHeight"
             },
             "fontSize": {
               "$value": 16,
-              "$type": "fontSizes"
+              "$type": "fontSize"
             },
             "letterSpacing": {
               "$value": "0.3px",
@@ -1579,19 +1579,19 @@
           "3": {
             "fontFamily": {
               "$value": "Inter",
-              "$type": "fontFamilies"
+              "$type": "fontFamily"
             },
             "fontWeight": {
               "$value": "Semi Bold",
-              "$type": "fontWeights"
+              "$type": "fontWeight"
             },
             "lineHeight": {
               "$value": "100%",
-              "$type": "lineHeights"
+              "$type": "lineHeight"
             },
             "fontSize": {
               "$value": 14,
-              "$type": "fontSizes"
+              "$type": "fontSize"
             },
             "letterSpacing": {
               "$value": "0.2px",
@@ -1603,19 +1603,19 @@
           "1": {
             "fontFamily": {
               "$value": "Inter",
-              "$type": "fontFamilies"
+              "$type": "fontFamily"
             },
             "fontWeight": {
               "$value": "Medium",
-              "$type": "fontWeights"
+              "$type": "fontWeight"
             },
             "lineHeight": {
               "$value": "140%",
-              "$type": "lineHeights"
+              "$type": "lineHeight"
             },
             "fontSize": {
               "$value": 16,
-              "$type": "fontSizes"
+              "$type": "fontSize"
             },
             "letterSpacing": {
               "$value": "0px",
@@ -1625,19 +1625,19 @@
           "2": {
             "fontFamily": {
               "$value": "Inter",
-              "$type": "fontFamilies"
+              "$type": "fontFamily"
             },
             "fontWeight": {
               "$value": "Medium",
-              "$type": "fontWeights"
+              "$type": "fontWeight"
             },
             "lineHeight": {
               "$value": "140%",
-              "$type": "lineHeights"
+              "$type": "lineHeight"
             },
             "fontSize": {
               "$value": 14,
-              "$type": "fontSizes"
+              "$type": "fontSize"
             },
             "letterSpacing": {
               "$value": "0px",
@@ -1647,19 +1647,19 @@
           "3": {
             "fontFamily": {
               "$value": "Inter",
-              "$type": "fontFamilies"
+              "$type": "fontFamily"
             },
             "fontWeight": {
               "$value": "Medium",
-              "$type": "fontWeights"
+              "$type": "fontWeight"
             },
             "lineHeight": {
               "$value": "140%",
-              "$type": "lineHeights"
+              "$type": "lineHeight"
             },
             "fontSize": {
               "$value": 12,
-              "$type": "fontSizes"
+              "$type": "fontSize"
             },
             "letterSpacing": {
               "$value": "0px",
@@ -1671,19 +1671,19 @@
           "1": {
             "fontFamily": {
               "$value": "Inter",
-              "$type": "fontFamilies"
+              "$type": "fontFamily"
             },
             "fontWeight": {
               "$value": "Bold",
-              "$type": "fontWeights"
+              "$type": "fontWeight"
             },
             "lineHeight": {
               "$value": "150%",
-              "$type": "lineHeights"
+              "$type": "lineHeight"
             },
             "fontSize": {
               "$value": 18,
-              "$type": "fontSizes"
+              "$type": "fontSize"
             },
             "letterSpacing": {
               "$value": "0px",
@@ -1693,19 +1693,19 @@
           "2": {
             "fontFamily": {
               "$value": "Inter",
-              "$type": "fontFamilies"
+              "$type": "fontFamily"
             },
             "fontWeight": {
               "$value": "Semi Bold",
-              "$type": "fontWeights"
+              "$type": "fontWeight"
             },
             "lineHeight": {
               "$value": "150%",
-              "$type": "lineHeights"
+              "$type": "lineHeight"
             },
             "fontSize": {
               "$value": 18,
-              "$type": "fontSizes"
+              "$type": "fontSize"
             },
             "letterSpacing": {
               "$value": "0px",
@@ -1715,19 +1715,19 @@
           "3": {
             "fontFamily": {
               "$value": "Inter",
-              "$type": "fontFamilies"
+              "$type": "fontFamily"
             },
             "fontWeight": {
               "$value": "Medium",
-              "$type": "fontWeights"
+              "$type": "fontWeight"
             },
             "lineHeight": {
               "$value": "150%",
-              "$type": "lineHeights"
+              "$type": "lineHeight"
             },
             "fontSize": {
               "$value": 18,
-              "$type": "fontSizes"
+              "$type": "fontSize"
             },
             "letterSpacing": {
               "$value": "0px",
@@ -1737,19 +1737,19 @@
           "4": {
             "fontFamily": {
               "$value": "Inter",
-              "$type": "fontFamilies"
+              "$type": "fontFamily"
             },
             "fontWeight": {
               "$value": "Bold",
-              "$type": "fontWeights"
+              "$type": "fontWeight"
             },
             "lineHeight": {
               "$value": "150%",
-              "$type": "lineHeights"
+              "$type": "lineHeight"
             },
             "fontSize": {
               "$value": 16,
-              "$type": "fontSizes"
+              "$type": "fontSize"
             },
             "letterSpacing": {
               "$value": "0px",
@@ -1759,19 +1759,19 @@
           "5": {
             "fontFamily": {
               "$value": "Inter",
-              "$type": "fontFamilies"
+              "$type": "fontFamily"
             },
             "fontWeight": {
               "$value": "Semi Bold",
-              "$type": "fontWeights"
+              "$type": "fontWeight"
             },
             "lineHeight": {
               "$value": "150%",
-              "$type": "lineHeights"
+              "$type": "lineHeight"
             },
             "fontSize": {
               "$value": 16,
-              "$type": "fontSizes"
+              "$type": "fontSize"
             },
             "letterSpacing": {
               "$value": "0px",
@@ -1781,19 +1781,19 @@
           "6": {
             "fontFamily": {
               "$value": "Inter",
-              "$type": "fontFamilies"
+              "$type": "fontFamily"
             },
             "fontWeight": {
               "$value": "Medium",
-              "$type": "fontWeights"
+              "$type": "fontWeight"
             },
             "lineHeight": {
               "$value": "150%",
-              "$type": "lineHeights"
+              "$type": "lineHeight"
             },
             "fontSize": {
               "$value": 16,
-              "$type": "fontSizes"
+              "$type": "fontSize"
             },
             "letterSpacing": {
               "$value": "0px",
@@ -1803,19 +1803,19 @@
           "7": {
             "fontFamily": {
               "$value": "Inter",
-              "$type": "fontFamilies"
+              "$type": "fontFamily"
             },
             "fontWeight": {
               "$value": "Bold",
-              "$type": "fontWeights"
+              "$type": "fontWeight"
             },
             "lineHeight": {
               "$value": "150%",
-              "$type": "lineHeights"
+              "$type": "lineHeight"
             },
             "fontSize": {
               "$value": 14,
-              "$type": "fontSizes"
+              "$type": "fontSize"
             },
             "letterSpacing": {
               "$value": "0px",
@@ -1825,19 +1825,19 @@
           "8": {
             "fontFamily": {
               "$value": "Inter",
-              "$type": "fontFamilies"
+              "$type": "fontFamily"
             },
             "fontWeight": {
               "$value": "Semi Bold",
-              "$type": "fontWeights"
+              "$type": "fontWeight"
             },
             "lineHeight": {
               "$value": "150%",
-              "$type": "lineHeights"
+              "$type": "lineHeight"
             },
             "fontSize": {
               "$value": 14,
-              "$type": "fontSizes"
+              "$type": "fontSize"
             },
             "letterSpacing": {
               "$value": "0px",
@@ -1847,19 +1847,19 @@
           "9": {
             "fontFamily": {
               "$value": "Inter",
-              "$type": "fontFamilies"
+              "$type": "fontFamily"
             },
             "fontWeight": {
               "$value": "Medium",
-              "$type": "fontWeights"
+              "$type": "fontWeight"
             },
             "lineHeight": {
               "$value": "150%",
-              "$type": "lineHeights"
+              "$type": "lineHeight"
             },
             "fontSize": {
               "$value": 14,
-              "$type": "fontSizes"
+              "$type": "fontSize"
             },
             "letterSpacing": {
               "$value": "0px",
@@ -1869,19 +1869,19 @@
           "10": {
             "fontFamily": {
               "$value": "Inter",
-              "$type": "fontFamilies"
+              "$type": "fontFamily"
             },
             "fontWeight": {
               "$value": "Bold",
-              "$type": "fontWeights"
+              "$type": "fontWeight"
             },
             "lineHeight": {
               "$value": "150%",
-              "$type": "lineHeights"
+              "$type": "lineHeight"
             },
             "fontSize": {
               "$value": 12,
-              "$type": "fontSizes"
+              "$type": "fontSize"
             },
             "letterSpacing": {
               "$value": "0px",
@@ -1891,19 +1891,19 @@
           "11": {
             "fontFamily": {
               "$value": "Inter",
-              "$type": "fontFamilies"
+              "$type": "fontFamily"
             },
             "fontWeight": {
               "$value": "Semi Bold",
-              "$type": "fontWeights"
+              "$type": "fontWeight"
             },
             "lineHeight": {
               "$value": "150%",
-              "$type": "lineHeights"
+              "$type": "lineHeight"
             },
             "fontSize": {
               "$value": 12,
-              "$type": "fontSizes"
+              "$type": "fontSize"
             },
             "letterSpacing": {
               "$value": "0px",
@@ -1913,19 +1913,19 @@
           "12": {
             "fontFamily": {
               "$value": "Inter",
-              "$type": "fontFamilies"
+              "$type": "fontFamily"
             },
             "fontWeight": {
               "$value": "Medium",
-              "$type": "fontWeights"
+              "$type": "fontWeight"
             },
             "lineHeight": {
               "$value": "150%",
-              "$type": "lineHeights"
+              "$type": "lineHeight"
             },
             "fontSize": {
               "$value": 12,
-              "$type": "fontSizes"
+              "$type": "fontSize"
             },
             "letterSpacing": {
               "$value": "0px",
@@ -1937,19 +1937,19 @@
           "1": {
             "fontFamily": {
               "$value": "Inter",
-              "$type": "fontFamilies"
+              "$type": "fontFamily"
             },
             "fontWeight": {
               "$value": "Regular",
-              "$type": "fontWeights"
+              "$type": "fontWeight"
             },
             "lineHeight": {
               "$value": "150%",
-              "$type": "lineHeights"
+              "$type": "lineHeight"
             },
             "fontSize": {
               "$value": 16,
-              "$type": "fontSizes"
+              "$type": "fontSize"
             },
             "letterSpacing": {
               "$value": "0px",
@@ -1959,19 +1959,19 @@
           "2": {
             "fontFamily": {
               "$value": "Inter",
-              "$type": "fontFamilies"
+              "$type": "fontFamily"
             },
             "fontWeight": {
               "$value": "Medium",
-              "$type": "fontWeights"
+              "$type": "fontWeight"
             },
             "lineHeight": {
               "$value": "150%",
-              "$type": "lineHeights"
+              "$type": "lineHeight"
             },
             "fontSize": {
               "$value": 14,
-              "$type": "fontSizes"
+              "$type": "fontSize"
             },
             "letterSpacing": {
               "$value": "0px",
@@ -1981,19 +1981,19 @@
           "3": {
             "fontFamily": {
               "$value": "Inter",
-              "$type": "fontFamilies"
+              "$type": "fontFamily"
             },
             "fontWeight": {
               "$value": "Medium",
-              "$type": "fontWeights"
+              "$type": "fontWeight"
             },
             "lineHeight": {
               "$value": "150%",
-              "$type": "lineHeights"
+              "$type": "lineHeight"
             },
             "fontSize": {
               "$value": 12,
-              "$type": "fontSizes"
+              "$type": "fontSize"
             },
             "letterSpacing": {
               "$value": "0px",

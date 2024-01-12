@@ -12,7 +12,11 @@ fs.readFile("tokens/converted-tokens.json", "utf8", (err, data) => {
     .replace(/"value":/g, '"$value":')
     .replace(/"type":/g, '"$type":')
     .replace(/"category":/g, '"$category":')
-    .replace(/"extensions":/g, '"$extensions":');
+    .replace(/"extensions":/g, '"$extensions":')
+    .replace(/: "fontWeights"/g, ': "fontWeight"')
+    .replace(/: "fontFamilies"/g, ': "fontFamily"')
+    .replace(/: "fontSizes"/g, ': "fontSize"')
+    .replace(/: "lineHeights"/g, ': "lineHeight"');
 
   fs.writeFile(
     "tokens/converted-tokens-w3c.json",
