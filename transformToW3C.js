@@ -8,6 +8,7 @@ fs.readFile("tokens/converted-tokens.json", "utf8", (err, data) => {
   }
 
   // As of now, only "value", "type", "category" and "extensions" are prepended with $
+  // Format types to match W3C format: https://second-editors-draft.tr.designtokens.org/format/
   const convertedData = data
     .replace(/"value":/g, '"$value":')
     .replace(/"type":/g, '"$type":')
@@ -16,7 +17,11 @@ fs.readFile("tokens/converted-tokens.json", "utf8", (err, data) => {
     .replace(/: "fontWeights"/g, ': "fontWeight"')
     .replace(/: "fontFamilies"/g, ': "fontFamily"')
     .replace(/: "fontSizes"/g, ': "fontSize"')
-    .replace(/: "lineHeights"/g, ': "lineHeight"');
+    .replace(/: "lineHeights"/g, ': "lineHeight"')
+    .replace(/"x"/g, '"offsetX"')
+    .replace(/"y"/g, '"offsetY"')
+    .replace(/"\$type": "dropShadow"/g, '"$type": "shadow"')
+    .replace(/"\$type": "boxShadow"/g, '"$type": "shadow"');
 
   fs.writeFile(
     "tokens/converted-tokens-w3c.json",
