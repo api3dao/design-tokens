@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Fri, 12 Jan 2024 19:20:24 GMT
+ * Generated on Wed, 24 Jan 2024 08:14:35 GMT
  */
 
 :root {
@@ -455,11 +455,21 @@
   --contents-ds-semantic-font-menu-navigation-3-line-height: 150%;
   --contents-ds-semantic-font-menu-navigation-3-font-size: 12;
   --contents-ds-semantic-font-menu-navigation-3-letter-spacing: 0px;
-  --contents-ds-semantic-input-border-disabled: [object Object];
-  --contents-ds-semantic-input-border-default: [object Object];
-  --contents-ds-semantic-input-border-focused: [object Object];
-  --contents-ds-semantic-input-border-error-focused: [object Object];
-  --contents-ds-semantic-input-border-error-default: [object Object];
+  --contents-ds-semantic-input-border-disabled-color: #222222;
+  --contents-ds-semantic-input-border-disabled-width: 1px;
+  --contents-ds-semantic-input-border-disabled-style: solid;
+  --contents-ds-semantic-input-border-default-color: #404141;
+  --contents-ds-semantic-input-border-default-width: 1px;
+  --contents-ds-semantic-input-border-default-style: solid;
+  --contents-ds-semantic-input-border-focused-color: #f3f3f3;
+  --contents-ds-semantic-input-border-focused-width: 1px;
+  --contents-ds-semantic-input-border-focused-style: solid;
+  --contents-ds-semantic-input-border-error-focused-color: #FF855E;
+  --contents-ds-semantic-input-border-error-focused-width: 1px;
+  --contents-ds-semantic-input-border-error-focused-style: solid;
+  --contents-ds-semantic-input-border-error-default-color: #A33310;
+  --contents-ds-semantic-input-border-error-default-width: 1px;
+  --contents-ds-semantic-input-border-error-default-style: solid;
   --contents-ds-semantic-color-action-error-25: #FFEEE8;
   --contents-ds-semantic-color-action-error-50: #FFD3C6;
   --contents-ds-semantic-color-action-error-100: #FFB9A3;
@@ -504,10 +514,20 @@
   --contents-ds-semantic-color-action-info-700: #125DA3;
   --contents-ds-semantic-color-action-info-800: #0D4375;
   --contents-ds-semantic-color-action-info-900: #082947;
-  --contents-ds-semantic-search-border-disabled: [object Object];
-  --contents-ds-semantic-search-border-default: [object Object];
-  --contents-ds-semantic-search-border-focused: [object Object];
-  --contents-ds-semantic-search-border-error-focused: [object Object];
-  --contents-ds-semantic-search-border-error-neutral: [object Object];
+  --contents-ds-semantic-search-border-disabled-color: #222222;
+  --contents-ds-semantic-search-border-disabled-width: 1px;
+  --contents-ds-semantic-search-border-disabled-style: solid;
+  --contents-ds-semantic-search-border-default-color: #404141;
+  --contents-ds-semantic-search-border-default-width: 1px;
+  --contents-ds-semantic-search-border-default-style: solid;
+  --contents-ds-semantic-search-border-focused-color: #f3f3f3;
+  --contents-ds-semantic-search-border-focused-width: 1px;
+  --contents-ds-semantic-search-border-focused-style: solid;
+  --contents-ds-semantic-search-border-error-focused-color: #FF855E;
+  --contents-ds-semantic-search-border-error-focused-width: 1px;
+  --contents-ds-semantic-search-border-error-focused-style: solid;
+  --contents-ds-semantic-search-border-error-neutral-color: #A33310;
+  --contents-ds-semantic-search-border-error-neutral-width: 1px;
+  --contents-ds-semantic-search-border-error-neutral-style: solid;
   --contents-token-set-order-0: global;
 }
