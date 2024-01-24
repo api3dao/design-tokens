@@ -7,8 +7,9 @@ fs.readFile("tokens/converted-tokens.json", "utf8", (err, data) => {
     return;
   }
 
-  // As of now, only "value", "type", "category" and "extensions" are prepended with $
   // Format types to match W3C format: https://second-editors-draft.tr.designtokens.org/format/
+  // We are using a custom solution because a generic one hasn't been developed yet, to our knowledge. I (Bogdan) asked zeroheight support about this, and they weren't aware of any solution either.
+  // As of now, only "value", "type", "category" and "extensions" are prepended with $
   const convertedData = data
     .replace(/"value":/g, '"$value":')
     .replace(/"type":/g, '"$type":')

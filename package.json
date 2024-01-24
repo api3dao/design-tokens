@@ -3,10 +3,17 @@
   "version": "1.0.0",
   "description": "Design tokens for the API3 organization",
   "scripts": {
-    "build": "token-transformer --expandTypography tokens/tokens.json tokens/converted-tokens.json && node transformToW3C.js && style-dictionary build"
+    "build": "npm run transform-tokens && npm run convert-to-w3c && npm run convert-to-tailwind && npm run convert-to-css-vars",
+    "transform-tokens": "token-transformer --expandTypography --expandBorder tokens/tokens.json tokens/converted-tokens.json",
+    "convert-to-w3c": "node transformTokensToW3CStandard.js",
+    "convert-to-tailwind": "node sd.config.js",
+    "convert-to-css-vars": "style-dictionary build"
   },
   "devDependencies": {
     "style-dictionary": "^3.9.0",
     "token-transformer": "^0.0.33"
+  },
+  "dependencies": {
+    "sd-tailwindcss-transformer": "^1.4.1"
   }
 }
