@@ -98,10 +98,8 @@ function renameKeys(obj) {
 
 function getShadowString(obj) {
   let dropShadow = obj.value;
-  console.log(dropShadow);
   let shadow = `${dropShadow.x} ${dropShadow.y} ${dropShadow.blur} ${dropShadow.spread} ${dropShadow.color}`;
 
-  console.log(shadow);
   return shadow;
 }
 
