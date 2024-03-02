@@ -390,31 +390,31 @@
         },
         "weight": {
           "300": {
-            "$value": "light",
+            "$value": "Light",
             "$type": "fontWeight"
           },
           "400": {
-            "$value": "regular",
+            "$value": "Regular",
             "$type": "fontWeight"
           },
           "500": {
-            "$value": "medium",
+            "$value": "Medium",
             "$type": "fontWeight"
           },
           "600": {
-            "$value": "semi-bold",
+            "$value": "SemiBold",
             "$type": "fontWeight"
           },
           "700": {
-            "$value": "bold",
+            "$value": "Bold",
             "$type": "fontWeight"
           },
           "800": {
-            "$value": "extra-bold",
+            "$value": "ExtraBold",
             "$type": "fontWeight"
           },
           "900": {
-            "$value": "black",
+            "$value": "Black",
             "$type": "fontWeight"
           }
         },
@@ -562,6 +562,10 @@
           "$value": 8,
           "$type": "spacing"
         },
+        "75": {
+          "$value": 12,
+          "$type": "spacing"
+        },
         "100": {
           "$value": 16,
           "$type": "spacing"
@@ -648,7 +652,7 @@
               "$type": "fontFamily"
             },
             "fontWeight": {
-              "$value": "semi-bold",
+              "$value": "SemiBold",
               "$type": "fontWeight"
             },
             "lineHeight": {
@@ -670,7 +674,7 @@
               "$type": "fontFamily"
             },
             "fontWeight": {
-              "$value": "semi-bold",
+              "$value": "SemiBold",
               "$type": "fontWeight"
             },
             "lineHeight": {
@@ -692,7 +696,7 @@
               "$type": "fontFamily"
             },
             "fontWeight": {
-              "$value": "semi-bold",
+              "$value": "SemiBold",
               "$type": "fontWeight"
             },
             "lineHeight": {
@@ -714,7 +718,7 @@
               "$type": "fontFamily"
             },
             "fontWeight": {
-              "$value": "semi-bold",
+              "$value": "SemiBold",
               "$type": "fontWeight"
             },
             "lineHeight": {
@@ -736,7 +740,7 @@
               "$type": "fontFamily"
             },
             "fontWeight": {
-              "$value": "semi-bold",
+              "$value": "SemiBold",
               "$type": "fontWeight"
             },
             "lineHeight": {
@@ -758,7 +762,7 @@
               "$type": "fontFamily"
             },
             "fontWeight": {
-              "$value": "semi-bold",
+              "$value": "SemiBold",
               "$type": "fontWeight"
             },
             "lineHeight": {
@@ -780,7 +784,7 @@
               "$type": "fontFamily"
             },
             "fontWeight": {
-              "$value": "semi-bold",
+              "$value": "SemiBold",
               "$type": "fontWeight"
             },
             "lineHeight": {
@@ -804,7 +808,7 @@
               "$type": "fontFamily"
             },
             "fontWeight": {
-              "$value": "bold",
+              "$value": "Bold",
               "$type": "fontWeight"
             },
             "lineHeight": {
@@ -826,7 +830,7 @@
               "$type": "fontFamily"
             },
             "fontWeight": {
-              "$value": "semi-bold",
+              "$value": "SemiBold",
               "$type": "fontWeight"
             },
             "lineHeight": {
@@ -848,7 +852,7 @@
               "$type": "fontFamily"
             },
             "fontWeight": {
-              "$value": "regular",
+              "$value": "Regular",
               "$type": "fontWeight"
             },
             "lineHeight": {
@@ -870,7 +874,7 @@
               "$type": "fontFamily"
             },
             "fontWeight": {
-              "$value": "bold",
+              "$value": "Bold",
               "$type": "fontWeight"
             },
             "lineHeight": {
@@ -892,7 +896,7 @@
               "$type": "fontFamily"
             },
             "fontWeight": {
-              "$value": "semi-bold",
+              "$value": "SemiBold",
               "$type": "fontWeight"
             },
             "lineHeight": {
@@ -914,7 +918,7 @@
               "$type": "fontFamily"
             },
             "fontWeight": {
-              "$value": "bold",
+              "$value": "Bold",
               "$type": "fontWeight"
             },
             "lineHeight": {
@@ -936,7 +940,7 @@
               "$type": "fontFamily"
             },
             "fontWeight": {
-              "$value": "bold",
+              "$value": "Bold",
               "$type": "fontWeight"
             },
             "lineHeight": {
@@ -958,7 +962,7 @@
               "$type": "fontFamily"
             },
             "fontWeight": {
-              "$value": "semi-bold",
+              "$value": "SemiBold",
               "$type": "fontWeight"
             },
             "lineHeight": {
@@ -980,7 +984,7 @@
               "$type": "fontFamily"
             },
             "fontWeight": {
-              "$value": "regular",
+              "$value": "Regular",
               "$type": "fontWeight"
             },
             "lineHeight": {
@@ -1002,7 +1006,7 @@
               "$type": "fontFamily"
             },
             "fontWeight": {
-              "$value": "bold",
+              "$value": "Bold",
               "$type": "fontWeight"
             },
             "lineHeight": {
@@ -1024,7 +1028,7 @@
               "$type": "fontFamily"
             },
             "fontWeight": {
-              "$value": "semi-bold",
+              "$value": "SemiBold",
               "$type": "fontWeight"
             },
             "lineHeight": {
@@ -1046,7 +1050,7 @@
               "$type": "fontFamily"
             },
             "fontWeight": {
-              "$value": "regular",
+              "$value": "Regular",
               "$type": "fontWeight"
             },
             "lineHeight": {
@@ -1070,7 +1074,7 @@
               "$type": "fontFamily"
             },
             "fontWeight": {
-              "$value": "bold",
+              "$value": "Bold",
               "$type": "fontWeight"
             },
             "lineHeight": {
@@ -1092,7 +1096,7 @@
               "$type": "fontFamily"
             },
             "fontWeight": {
-              "$value": "semi-bold",
+              "$value": "SemiBold",
               "$type": "fontWeight"
             },
             "lineHeight": {
@@ -1114,7 +1118,7 @@
               "$type": "fontFamily"
             },
             "fontWeight": {
-              "$value": "regular",
+              "$value": "Regular",
               "$type": "fontWeight"
             },
             "lineHeight": {
@@ -1136,7 +1140,7 @@
               "$type": "fontFamily"
             },
             "fontWeight": {
-              "$value": "bold",
+              "$value": "Bold",
               "$type": "fontWeight"
             },
             "lineHeight": {
@@ -1158,7 +1162,7 @@
               "$type": "fontFamily"
             },
             "fontWeight": {
-              "$value": "semi-bold",
+              "$value": "SemiBold",
               "$type": "fontWeight"
             },
             "lineHeight": {
@@ -1180,7 +1184,7 @@
               "$type": "fontFamily"
             },
             "fontWeight": {
-              "$value": "regular",
+              "$value": "Regular",
               "$type": "fontWeight"
             },
             "lineHeight": {
@@ -1202,7 +1206,7 @@
               "$type": "fontFamily"
             },
             "fontWeight": {
-              "$value": "bold",
+              "$value": "Bold",
               "$type": "fontWeight"
             },
             "lineHeight": {
@@ -1224,7 +1228,7 @@
               "$type": "fontFamily"
             },
             "fontWeight": {
-              "$value": "semi-bold",
+              "$value": "SemiBold",
               "$type": "fontWeight"
             },
             "lineHeight": {
@@ -1246,7 +1250,7 @@
               "$type": "fontFamily"
             },
             "fontWeight": {
-              "$value": "regular",
+              "$value": "Regular",
               "$type": "fontWeight"
             },
             "lineHeight": {
@@ -1270,7 +1274,7 @@
               "$type": "fontFamily"
             },
             "fontWeight": {
-              "$value": "bold",
+              "$value": "Bold",
               "$type": "fontWeight"
             },
             "lineHeight": {
@@ -1292,7 +1296,7 @@
               "$type": "fontFamily"
             },
             "fontWeight": {
-              "$value": "semi-bold",
+              "$value": "SemiBold",
               "$type": "fontWeight"
             },
             "lineHeight": {
@@ -1314,7 +1318,7 @@
               "$type": "fontFamily"
             },
             "fontWeight": {
-              "$value": "regular",
+              "$value": "Regular",
               "$type": "fontWeight"
             },
             "lineHeight": {
@@ -1336,7 +1340,7 @@
               "$type": "fontFamily"
             },
             "fontWeight": {
-              "$value": "bold",
+              "$value": "Bold",
               "$type": "fontWeight"
             },
             "lineHeight": {
@@ -1358,7 +1362,7 @@
               "$type": "fontFamily"
             },
             "fontWeight": {
-              "$value": "semi-bold",
+              "$value": "SemiBold",
               "$type": "fontWeight"
             },
             "lineHeight": {
@@ -1380,7 +1384,7 @@
               "$type": "fontFamily"
             },
             "fontWeight": {
-              "$value": "regular",
+              "$value": "Regular",
               "$type": "fontWeight"
             },
             "lineHeight": {
@@ -1402,7 +1406,7 @@
               "$type": "fontFamily"
             },
             "fontWeight": {
-              "$value": "bold",
+              "$value": "Bold",
               "$type": "fontWeight"
             },
             "lineHeight": {
@@ -1424,7 +1428,7 @@
               "$type": "fontFamily"
             },
             "fontWeight": {
-              "$value": "semi-bold",
+              "$value": "SemiBold",
               "$type": "fontWeight"
             },
             "lineHeight": {
@@ -1446,7 +1450,7 @@
               "$type": "fontFamily"
             },
             "fontWeight": {
-              "$value": "regular",
+              "$value": "Regular",
               "$type": "fontWeight"
             },
             "lineHeight": {
@@ -1468,7 +1472,7 @@
               "$type": "fontFamily"
             },
             "fontWeight": {
-              "$value": "regular",
+              "$value": "Regular",
               "$type": "fontWeight"
             },
             "lineHeight": {
@@ -1492,7 +1496,7 @@
               "$type": "fontFamily"
             },
             "fontWeight": {
-              "$value": "regular",
+              "$value": "Regular",
               "$type": "fontWeight"
             },
             "lineHeight": {
@@ -1514,7 +1518,7 @@
               "$type": "fontFamily"
             },
             "fontWeight": {
-              "$value": "regular",
+              "$value": "Regular",
               "$type": "fontWeight"
             },
             "lineHeight": {
@@ -1538,7 +1542,7 @@
               "$type": "fontFamily"
             },
             "fontWeight": {
-              "$value": "semi-bold",
+              "$value": "SemiBold",
               "$type": "fontWeight"
             },
             "lineHeight": {
@@ -1560,7 +1564,7 @@
               "$type": "fontFamily"
             },
             "fontWeight": {
-              "$value": "semi-bold",
+              "$value": "SemiBold",
               "$type": "fontWeight"
             },
             "lineHeight": {
@@ -1582,7 +1586,7 @@
               "$type": "fontFamily"
             },
             "fontWeight": {
-              "$value": "semi-bold",
+              "$value": "SemiBold",
               "$type": "fontWeight"
             },
             "lineHeight": {
@@ -1606,7 +1610,7 @@
               "$type": "fontFamily"
             },
             "fontWeight": {
-              "$value": "medium",
+              "$value": "Medium",
               "$type": "fontWeight"
             },
             "lineHeight": {
@@ -1628,7 +1632,7 @@
               "$type": "fontFamily"
             },
             "fontWeight": {
-              "$value": "medium",
+              "$value": "Medium",
               "$type": "fontWeight"
             },
             "lineHeight": {
@@ -1650,7 +1654,7 @@
               "$type": "fontFamily"
             },
             "fontWeight": {
-              "$value": "medium",
+              "$value": "Medium",
               "$type": "fontWeight"
             },
             "lineHeight": {
@@ -1674,7 +1678,7 @@
               "$type": "fontFamily"
             },
             "fontWeight": {
-              "$value": "bold",
+              "$value": "Bold",
               "$type": "fontWeight"
             },
             "lineHeight": {
@@ -1696,7 +1700,7 @@
               "$type": "fontFamily"
             },
             "fontWeight": {
-              "$value": "semi-bold",
+              "$value": "SemiBold",
               "$type": "fontWeight"
             },
             "lineHeight": {
@@ -1718,7 +1722,7 @@
               "$type": "fontFamily"
             },
             "fontWeight": {
-              "$value": "medium",
+              "$value": "Medium",
               "$type": "fontWeight"
             },
             "lineHeight": {
@@ -1740,7 +1744,7 @@
               "$type": "fontFamily"
             },
             "fontWeight": {
-              "$value": "bold",
+              "$value": "Bold",
               "$type": "fontWeight"
             },
             "lineHeight": {
@@ -1762,7 +1766,7 @@
               "$type": "fontFamily"
             },
             "fontWeight": {
-              "$value": "semi-bold",
+              "$value": "SemiBold",
               "$type": "fontWeight"
             },
             "lineHeight": {
@@ -1784,7 +1788,7 @@
               "$type": "fontFamily"
             },
             "fontWeight": {
-              "$value": "medium",
+              "$value": "Medium",
               "$type": "fontWeight"
             },
             "lineHeight": {
@@ -1806,7 +1810,7 @@
               "$type": "fontFamily"
             },
             "fontWeight": {
-              "$value": "bold",
+              "$value": "Bold",
               "$type": "fontWeight"
             },
             "lineHeight": {
@@ -1828,7 +1832,7 @@
               "$type": "fontFamily"
             },
             "fontWeight": {
-              "$value": "semi-bold",
+              "$value": "SemiBold",
               "$type": "fontWeight"
             },
             "lineHeight": {
@@ -1850,7 +1854,7 @@
               "$type": "fontFamily"
             },
             "fontWeight": {
-              "$value": "medium",
+              "$value": "Medium",
               "$type": "fontWeight"
             },
             "lineHeight": {
@@ -1872,7 +1876,7 @@
               "$type": "fontFamily"
             },
             "fontWeight": {
-              "$value": "bold",
+              "$value": "Bold",
               "$type": "fontWeight"
             },
             "lineHeight": {
@@ -1894,7 +1898,7 @@
               "$type": "fontFamily"
             },
             "fontWeight": {
-              "$value": "semi-bold",
+              "$value": "SemiBold",
               "$type": "fontWeight"
             },
             "lineHeight": {
@@ -1916,7 +1920,7 @@
               "$type": "fontFamily"
             },
             "fontWeight": {
-              "$value": "medium",
+              "$value": "Medium",
               "$type": "fontWeight"
             },
             "lineHeight": {
@@ -1940,7 +1944,7 @@
               "$type": "fontFamily"
             },
             "fontWeight": {
-              "$value": "regular",
+              "$value": "Regular",
               "$type": "fontWeight"
             },
             "lineHeight": {
@@ -1962,7 +1966,7 @@
               "$type": "fontFamily"
             },
             "fontWeight": {
-              "$value": "medium",
+              "$value": "Medium",
               "$type": "fontWeight"
             },
             "lineHeight": {
@@ -1984,7 +1988,7 @@
               "$type": "fontFamily"
             },
             "fontWeight": {
-              "$value": "medium",
+              "$value": "Medium",
               "$type": "fontWeight"
             },
             "lineHeight": {
@@ -2264,6 +2268,58 @@
               "$type": "color"
             }
           }
+        },
+        "text": {
+          "default": {
+            "$value": "#878888",
+            "$type": "color"
+          },
+          "error": {
+            "$value": "#ff5019",
+            "$type": "color"
+          },
+          "warning": {
+            "$value": "#FFB119",
+            "$type": "color"
+          },
+          "success": {
+            "$value": "#19BA63",
+            "$type": "color"
+          }
+        },
+        "border": {
+          "default": {
+            "$value": "#404141",
+            "$type": "color"
+          },
+          "focused": {
+            "$value": "#f3f3f3",
+            "$type": "color"
+          },
+          "disabled": {
+            "$value": "#222222",
+            "$type": "color"
+          },
+          "error": {
+            "default": {
+              "$value": "#A33310",
+              "$type": "color"
+            },
+            "focused": {
+              "$value": "#FF855E",
+              "$type": "color"
+            }
+          }
+        },
+        "background": {
+          "default": {
+            "$value": "#030303",
+            "$type": "color"
+          },
+          "focused": {
+            "$value": "#121313",
+            "$type": "color"
+          }
         }
       },
       "search": {
@@ -2340,6 +2396,48 @@
               }
             }
           }
+        }
+      }
+    },
+    "component": {
+      "button": {
+        "primary": {
+          "default": {
+            "$value": {
+              "fill": "#C6E4FF",
+              "borderRadius": 8,
+              "typography": {
+                "fontFamily": "Inter",
+                "fontWeight": "SemiBold",
+                "lineHeight": "100%",
+                "fontSize": 18,
+                "letterSpacing": "0.3px"
+              }
+            },
+            "$type": "composition"
+          }
+        }
+      },
+      "input": {
+        "default": {
+          "$value": {
+            "border": {
+              "color": "#404141",
+              "width": "1px",
+              "style": "solid"
+            },
+            "typography": {
+              "fontFamily": "Inter",
+              "fontWeight": "Regular",
+              "lineHeight": "140%",
+              "fontSize": 14,
+              "letterSpacing": "0px"
+            },
+            "fill": "#030303",
+            "verticalPadding": 8,
+            "horizontalPadding": 12
+          },
+          "$type": "composition"
         }
       }
     }
