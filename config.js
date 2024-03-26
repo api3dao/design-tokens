@@ -1,19 +1,7 @@
 module.exports = {
-  source: ["tokens/converted-tokens-w3c.json", "tokens/converted-tokens.json"],
+  source: ["tokens/converted-tokens-w3c.json"],
   platforms: {
-    css: {
-      source: "tokens/converted-tokens.json",
-      transformGroup: "css",
-      buildPath: "converted/css/",
-      files: [
-        {
-          destination: "tokens.css",
-          format: "css/variables",
-        },
-      ],
-    },
     js: {
-      source: "tokens/converted-tokens-w3c.json",
       transformGroup: "js",
       buildPath: "converted/js/",
       files: [
