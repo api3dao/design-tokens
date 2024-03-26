@@ -14,6 +14,7 @@ module.exports = {
     js: {
       transformGroup: "js",
       buildPath: "converted/js/",
+      transforms: ["name/cti/camel", "size/px"],
       files: [
         {
           destination: "tokens.ts",

@@ -1,5 +1,3 @@
-import * as tokensJs from "./converted/js/tokens";
+import * as designTokensVariables from "./converted/js/tokens";
 
-export default {
-  tokensJs,
-};
+export default designTokensVariables;

@@ -1,6 +1,3 @@
-import * as tokensJs from "./converted/js/tokens";
-declare const _default: {
-    tokensJs: typeof tokensJs;
-};
-export default _default;
+import * as designTokensVariables from "./converted/js/tokens";
+export default designTokensVariables;
 //# sourceMappingURL=index.d.ts.map

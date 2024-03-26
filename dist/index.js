@@ -23,7 +23,5 @@ var __importStar = (this && this.__importStar) || function (mod) {
     return result;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-const tokensJs = __importStar(require("./converted/js/tokens"));
-exports.default = {
-    tokensJs,
-};
+const designTokensVariables = __importStar(require("./converted/js/tokens"));
+exports.default = designTokensVariables;
