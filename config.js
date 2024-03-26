@@ -16,7 +16,7 @@ module.exports = {
       buildPath: "converted/js/",
       files: [
         {
-          destination: "tokens.js",
+          destination: "tokens.ts",
           format: "javascript/es6",
         },
       ],

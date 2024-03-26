@@ -26,7 +26,7 @@ jobs:
         run: npm install
 
       - name: Run convertor
-        run: npm run convert-all
+        run: npm run build
 
       - name: Commit and push if changes
         run: |

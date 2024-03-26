@@ -1,18 +1,24 @@
 {
   "name": "design-tokens",
   "version": "1.0.0",
-  "main": "./index.js",
+  "main": "./dist/index.js",
   "description": "Design tokens for the API3 organization",
   "scripts": {
+    "build": "npm run convert-all && npm run rename-tailwind-file && tsc",
     "convert-all": "npm run transform-tokens && npm run convert-to-w3c && npm run convert-to-tailwind && npm run convert-to-css-vars",
     "transform-tokens": "token-transformer --expandTypography --expandBorder tokens/tokens.json tokens/converted-tokens.json",
     "convert-to-w3c": "node transformTokensToW3CStandard.js",
     "convert-to-tailwind": "node sd.config.js",
-    "convert-to-css-vars": "style-dictionary build"
+    "convert-to-css-vars": "style-dictionary build",
+    "rename-tailwind-file": "mv converted/js/tailwind.config.js converted/js/tailwind.config.ts"
   },
   "dependencies": {
     "sd-tailwindcss-transformer": "^1.4.1",
     "style-dictionary": "^3.9.2",
     "token-transformer": "^0.0.33"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.30",
+    "typescript": "^5.4.3"
   }
 }
