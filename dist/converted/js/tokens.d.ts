@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Tue, 26 Mar 2024 13:15:17 GMT
+ * Generated on Tue, 26 Mar 2024 13:16:17 GMT
  */
 export declare const dsCoreColorBaseLight = "#f3f3f3";
 export declare const dsCoreColorBaseDark = "#030303";
