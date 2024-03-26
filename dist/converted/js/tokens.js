@@ -1,7 +1,7 @@
 "use strict";
 /**
  * Do not edit directly
- * Generated on Tue, 26 Mar 2024 13:16:17 GMT
+ * Generated on Tue, 26 Mar 2024 18:45:07 GMT
  */
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.dsCoreColorRed200 = exports.dsCoreColorRed100 = exports.dsCoreColorRed50 = exports.dsCoreColorRed25 = exports.dsCoreColorPurple900 = exports.dsCoreColorPurple800 = exports.dsCoreColorPurple700 = exports.dsCoreColorPurple600 = exports.dsCoreColorPurple500 = exports.dsCoreColorPurple400 = exports.dsCoreColorPurple300 = exports.dsCoreColorPurple200 = exports.dsCoreColorPurple100 = exports.dsCoreColorPurple50 = exports.dsCoreColorPurple25 = exports.dsCoreColorIndigo900 = exports.dsCoreColorIndigo800 = exports.dsCoreColorIndigo700 = exports.dsCoreColorIndigo600 = exports.dsCoreColorIndigo500 = exports.dsCoreColorIndigo400 = exports.dsCoreColorIndigo300 = exports.dsCoreColorIndigo200 = exports.dsCoreColorIndigo100 = exports.dsCoreColorIndigo50 = exports.dsCoreColorIndigo25 = exports.dsCoreColorEmerald900 = exports.dsCoreColorEmerald800 = exports.dsCoreColorEmerald700 = exports.dsCoreColorEmerald600 = exports.dsCoreColorEmerald500 = exports.dsCoreColorEmerald400 = exports.dsCoreColorEmerald300 = exports.dsCoreColorEmerald200 = exports.dsCoreColorEmerald100 = exports.dsCoreColorEmerald50 = exports.dsCoreColorEmerald25 = exports.dsCoreColorGray900 = exports.dsCoreColorGray800 = exports.dsCoreColorGray700 = exports.dsCoreColorGray600 = exports.dsCoreColorGray500 = exports.dsCoreColorGray400 = exports.dsCoreColorGray300 = exports.dsCoreColorGray200 = exports.dsCoreColorGray100 = exports.dsCoreColorGray50 = exports.dsCoreColorGray25 = exports.dsCoreColorBaseDark = exports.dsCoreColorBaseLight = void 0;
