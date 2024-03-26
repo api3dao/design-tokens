@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Tue, 26 Mar 2024 13:01:09 GMT
+ * Generated on Tue, 26 Mar 2024 13:03:07 GMT
  */
 
 export const DsCoreColorBaseLight = "#f3f3f3";
@@ -149,14 +149,7 @@ export const DsCoreBreakpointsS = "600px";
 export const DsCoreBreakpointsM = "1024px";
 export const DsCoreBreakpointsL = "1300px";
 export const DsCoreBreakpointsXl = "1600px";
-export const DsSemanticShadowDropdown = {
-  x: "0px",
-  y: "4px",
-  blur: "20px",
-  spread: "0px",
-  color: "#10121190",
-  type: "dropShadow",
-};
+export const DsSemanticShadowDropdown = {"x":"0px","y":"4px","blur":"20px","spread":"0px","color":"#10121190","type":"dropShadow"};
 export const DsSemanticFontHeading1FontFamily = "Inter";
 export const DsSemanticFontHeading1FontWeight = "SemiBold";
 export const DsSemanticFontHeading1LineHeight = "110%";
@@ -547,27 +540,5 @@ export const DsSemanticSearchBorderErrorFocusedStyle = "solid";
 export const DsSemanticSearchBorderErrorNeutralColor = "#A33310";
 export const DsSemanticSearchBorderErrorNeutralWidth = "1px";
 export const DsSemanticSearchBorderErrorNeutralStyle = "solid";
-export const DsComponentButtonPrimaryDefault = {
-  fill: "#C6E4FF",
-  borderRadius: 8,
-  typography: {
-    fontFamily: "Inter",
-    fontWeight: "SemiBold",
-    lineHeight: "100%",
-    fontSize: 18,
-    letterSpacing: "0.3px",
-  },
-};
-export const DsComponentInputDefault = {
-  border: { color: "#404141", width: "1px", style: "solid" },
-  typography: {
-    fontFamily: "Inter",
-    fontWeight: "Regular",
-    lineHeight: "140%",
-    fontSize: 14,
-    letterSpacing: "0px",
-  },
-  fill: "#030303",
-  verticalPadding: 8,
-  horizontalPadding: 12,
-};
+export const DsComponentButtonPrimaryDefault = {"fill":"#C6E4FF","borderRadius":8,"typography":{"fontFamily":"Inter","fontWeight":"SemiBold","lineHeight":"100%","fontSize":18,"letterSpacing":"0.3px"}};
+export const DsComponentInputDefault = {"border":{"color":"#404141","width":"1px","style":"solid"},"typography":{"fontFamily":"Inter","fontWeight":"Regular","lineHeight":"140%","fontSize":14,"letterSpacing":"0px"},"fill":"#030303","verticalPadding":8,"horizontalPadding":12};
