@@ -1,11 +1,17 @@
-name: Convert tokens to css variables
+name: Convert incoming Figma tokens to variables
 
 on:
   push:
     branches: [main]
 
+# Sets permissions to allow commiting to the repository
+permissions:
+  contents: write
+  id-token: write
+  pull-requests: write
+
 jobs:
-  build-and-commit:
+  convert-and-commit:
     runs-on: ubuntu-latest
 
     steps:
@@ -19,8 +25,8 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: Run build
-        run: npm run build
+      - name: Run convertor
+        run: npm run convert-all
 
       - name: Commit and push if changes
         run: |
@@ -29,8 +35,6 @@ jobs:
           git add -A
           git commit -m "Generated build output" -a || exit 0 # This line prevents the action from failing if there's nothing to commit
           git push
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Notify Slack about the update
         uses: 8398a7/action-slack@v3
