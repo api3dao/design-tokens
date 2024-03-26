@@ -7,6 +7,7 @@ const StyleDictionary = StyleDictionaryModule.extend(
     tailwind: {
       plugins: ["forms", "typography"],
     },
+    buildPath: "converted/js/",
   })
 );
 

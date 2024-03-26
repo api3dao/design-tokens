@@ -1,16 +1,23 @@
-const fs = require("fs");
-const glob = require("glob");
-
 module.exports = {
   source: ["tokens/converted-tokens.json"],
   platforms: {
     css: {
       transformGroup: "css",
-      buildPath: "build/css/",
+      buildPath: "converted/css/",
       files: [
         {
-          destination: "variables.css",
+          destination: "tokens.css",
           format: "css/variables",
+        },
+      ],
+    },
+    js: {
+      transformGroup: "js",
+      buildPath: "converted/js/",
+      files: [
+        {
+          destination: "tokens.js",
+          format: "javascript/es6",
         },
       ],
     },
@@ -19,11 +26,10 @@ module.exports = {
     {
       pattern: "tokens/converted-tokens.json",
       parse: ({ contents, filePath }) => {
-        // Rudimentary way to obtain fully qualify references
-        const qualifiedContent = contents;
+        const dsContent = JSON.parse(contents).ds;
 
         return {
-          contents: JSON.parse(qualifiedContent),
+          ds: dsContent,
           filePath,
         };
       },
