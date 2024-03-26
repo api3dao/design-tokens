@@ -1,7 +1,8 @@
 module.exports = {
-  source: ["tokens/converted-tokens-w3c.json"],
+  source: ["tokens/converted-tokens-w3c.json", "tokens/converted-tokens.json"],
   platforms: {
     css: {
+      source: "tokens/converted-tokens.json",
       transformGroup: "css",
       buildPath: "converted/css/",
       files: [
@@ -12,6 +13,7 @@ module.exports = {
       ],
     },
     js: {
+      source: "tokens/converted-tokens-w3c.json",
       transformGroup: "js",
       buildPath: "converted/js/",
       files: [
@@ -43,7 +45,7 @@ module.exports = {
         };
 
         return {
-          ds: flatten(dsContent),
+          ...flatten(dsContent),
         };
       },
     },
