@@ -1,6 +1,7 @@
 {
   "name": "design-tokens",
   "version": "1.0.0",
+  "main": "./index.js",
   "description": "Design tokens for the API3 organization",
   "scripts": {
     "convert-all": "npm run transform-tokens && npm run convert-to-w3c && npm run convert-to-tailwind && npm run convert-to-css-vars",
