@@ -2299,16 +2299,6 @@
           "disabled": {
             "value": "#222222",
             "type": "color"
-          },
-          "error": {
-            "default": {
-              "value": "#A33310",
-              "type": "color"
-            },
-            "focused": {
-              "value": "#FF855E",
-              "type": "color"
-            }
           }
         },
         "background": {
@@ -2319,6 +2309,36 @@
           "focused": {
             "value": "#121313",
             "type": "color"
+          }
+        },
+        "gradient": {
+          "general": {
+            "1": {
+              "value": "linear-gradient (45deg, #030303 0%, #252726 100%)",
+              "type": "color"
+            },
+            "2": {
+              "value": "linear-gradient (45deg, #7CE3CB 0%, #7963B2 100%)",
+              "type": "color"
+            },
+            "3": {
+              "value": "linear-gradient (45deg, #C3C4C3 0%, #F3F3F3 100%)",
+              "type": "color"
+            },
+            "4": {
+              "value": "linear-gradient (135deg, #f3f3f340 0%, #20202099 100%)",
+              "type": "color"
+            }
+          },
+          "green": {
+            "1": {
+              "value": "linear-gradient (135deg, #f3f3f3 0%, #4BC79A 100%)",
+              "type": "color"
+            },
+            "2": {
+              "value": "linear-gradient (135deg, #5EFFD7 0%, #5effd700 100%)",
+              "type": "color"
+            }
           }
         }
       },
