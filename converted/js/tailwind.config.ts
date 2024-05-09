@@ -627,7 +627,8 @@
                 fontWeight: "Medium",
                 lineHeight: "150%",
                 fontSize: 12,
-                letterSpacing: "0px"
+                letterSpacing: "0px",
+                textCase: "Uppercase"
               }
             },
             menuNavigation: {
@@ -1463,7 +1464,8 @@
                   fontWeight: "Medium",
                   lineHeight: "150%",
                   fontSize: 12,
-                  letterSpacing: "0px"
+                  letterSpacing: "0px",
+                  textCase: "Uppercase"
                 }
               },
               menuNavigation: {
