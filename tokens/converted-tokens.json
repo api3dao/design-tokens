@@ -1282,7 +1282,7 @@
               "type": "lineHeights"
             },
             "fontSize": {
-              "value": 20,
+              "value": 18,
               "type": "fontSizes"
             },
             "letterSpacing": {
@@ -1304,7 +1304,7 @@
               "type": "lineHeights"
             },
             "fontSize": {
-              "value": 20,
+              "value": 18,
               "type": "fontSizes"
             },
             "letterSpacing": {
@@ -1326,7 +1326,7 @@
               "type": "lineHeights"
             },
             "fontSize": {
-              "value": 20,
+              "value": 18,
               "type": "fontSizes"
             },
             "letterSpacing": {

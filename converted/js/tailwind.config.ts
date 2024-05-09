@@ -415,21 +415,21 @@
                 fontFamily: "Inter",
                 fontWeight: "Bold",
                 lineHeight: "150%",
-                fontSize: 20,
+                fontSize: 18,
                 letterSpacing: "0px"
               },
               2: {
                 fontFamily: "Inter",
                 fontWeight: "Semi Bold",
                 lineHeight: "150%",
-                fontSize: 20,
+                fontSize: 18,
                 letterSpacing: "0px"
               },
               3: {
                 fontFamily: "Inter",
                 fontWeight: "Regular",
                 lineHeight: "150%",
-                fontSize: 20,
+                fontSize: 18,
                 letterSpacing: "0px"
               },
               4: {
@@ -1253,21 +1253,21 @@
                   fontFamily: "Inter",
                   fontWeight: "Bold",
                   lineHeight: "150%",
-                  fontSize: 20,
+                  fontSize: 18,
                   letterSpacing: "0px"
                 },
                 2: {
                   fontFamily: "Inter",
                   fontWeight: "Semi Bold",
                   lineHeight: "150%",
-                  fontSize: 20,
+                  fontSize: 18,
                   letterSpacing: "0px"
                 },
                 3: {
                   fontFamily: "Inter",
                   fontWeight: "Regular",
                   lineHeight: "150%",
-                  fontSize: 20,
+                  fontSize: 18,
                   letterSpacing: "0px"
                 },
                 4: {
