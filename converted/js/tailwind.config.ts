@@ -125,7 +125,7 @@
               300: "Light",
               400: "Regular",
               500: "Medium",
-              600: "SemiBold",
+              600: "Semi Bold",
               700: "Bold",
               800: "ExtraBold",
               900: "Black"
@@ -211,49 +211,49 @@
             heading: {
               1: {
                 fontFamily: "Inter",
-                fontWeight: "SemiBold",
+                fontWeight: "Semi Bold",
                 lineHeight: "110%",
                 fontSize: 64,
                 letterSpacing: "0px"
               },
               2: {
                 fontFamily: "Inter",
-                fontWeight: "SemiBold",
+                fontWeight: "Semi Bold",
                 lineHeight: "110%",
                 fontSize: 56,
                 letterSpacing: "-1.5px"
               },
               3: {
                 fontFamily: "Inter",
-                fontWeight: "SemiBold",
+                fontWeight: "Semi Bold",
                 lineHeight: "110%",
                 fontSize: 48,
                 letterSpacing: "-1.5px"
               },
               4: {
                 fontFamily: "Inter",
-                fontWeight: "SemiBold",
+                fontWeight: "Semi Bold",
                 lineHeight: "110%",
                 fontSize: 40,
                 letterSpacing: "-1.5px"
               },
               5: {
                 fontFamily: "Inter",
-                fontWeight: "SemiBold",
+                fontWeight: "Semi Bold",
                 lineHeight: "130%",
                 fontSize: 36,
                 letterSpacing: "-1.5px"
               },
               6: {
                 fontFamily: "Inter",
-                fontWeight: "SemiBold",
+                fontWeight: "Semi Bold",
                 lineHeight: "130%",
                 fontSize: 32,
                 letterSpacing: "0px"
               },
               7: {
                 fontFamily: "Inter",
-                fontWeight: "SemiBold",
+                fontWeight: "Semi Bold",
                 lineHeight: "130%",
                 fontSize: 22,
                 letterSpacing: "0px"
@@ -269,7 +269,7 @@
               },
               2: {
                 fontFamily: "Inter",
-                fontWeight: "SemiBold",
+                fontWeight: "Semi Bold",
                 lineHeight: "130%",
                 fontSize: 32,
                 letterSpacing: "0px"
@@ -290,7 +290,7 @@
               },
               5: {
                 fontFamily: "Inter",
-                fontWeight: "SemiBold",
+                fontWeight: "Semi Bold",
                 lineHeight: "130%",
                 fontSize: 22,
                 letterSpacing: "0px"
@@ -311,7 +311,7 @@
               },
               8: {
                 fontFamily: "Inter",
-                fontWeight: "SemiBold",
+                fontWeight: "Semi Bold",
                 lineHeight: "150%",
                 fontSize: 20,
                 letterSpacing: "0px"
@@ -332,7 +332,7 @@
               },
               11: {
                 fontFamily: "Inter",
-                fontWeight: "SemiBold",
+                fontWeight: "Semi Bold",
                 lineHeight: "140%",
                 fontSize: 18,
                 letterSpacing: "0px"
@@ -355,7 +355,7 @@
               },
               2: {
                 fontFamily: "Inter",
-                fontWeight: "SemiBold",
+                fontWeight: "Semi Bold",
                 lineHeight: "150%",
                 fontSize: 22,
                 letterSpacing: "0px"
@@ -376,7 +376,7 @@
               },
               5: {
                 fontFamily: "Inter",
-                fontWeight: "SemiBold",
+                fontWeight: "Semi Bold",
                 lineHeight: "150%",
                 fontSize: 20,
                 letterSpacing: "0px"
@@ -397,7 +397,7 @@
               },
               8: {
                 fontFamily: "Inter",
-                fontWeight: "SemiBold",
+                fontWeight: "Semi Bold",
                 lineHeight: "150%",
                 fontSize: 18,
                 letterSpacing: "0px"
@@ -420,7 +420,7 @@
               },
               2: {
                 fontFamily: "Inter",
-                fontWeight: "SemiBold",
+                fontWeight: "Semi Bold",
                 lineHeight: "150%",
                 fontSize: 20,
                 letterSpacing: "0px"
@@ -441,7 +441,7 @@
               },
               5: {
                 fontFamily: "Inter",
-                fontWeight: "SemiBold",
+                fontWeight: "Semi Bold",
                 lineHeight: "140%",
                 fontSize: 16,
                 letterSpacing: "0px"
@@ -462,7 +462,7 @@
               },
               8: {
                 fontFamily: "Inter",
-                fontWeight: "SemiBold",
+                fontWeight: "Semi Bold",
                 lineHeight: "140%",
                 fontSize: 14,
                 letterSpacing: "0px"
@@ -501,21 +501,21 @@
             button: {
               1: {
                 fontFamily: "Inter",
-                fontWeight: "SemiBold",
+                fontWeight: "Semi Bold",
                 lineHeight: "100%",
                 fontSize: 18,
                 letterSpacing: "0.3px"
               },
               2: {
                 fontFamily: "Inter",
-                fontWeight: "SemiBold",
+                fontWeight: "Semi Bold",
                 lineHeight: "100%",
                 fontSize: 16,
                 letterSpacing: "0.3px"
               },
               3: {
                 fontFamily: "Inter",
-                fontWeight: "SemiBold",
+                fontWeight: "Semi Bold",
                 lineHeight: "100%",
                 fontSize: 14,
                 letterSpacing: "0.2px"
@@ -554,7 +554,7 @@
               },
               2: {
                 fontFamily: "Inter",
-                fontWeight: "SemiBold",
+                fontWeight: "Semi Bold",
                 lineHeight: "150%",
                 fontSize: 18,
                 letterSpacing: "0px"
@@ -575,7 +575,7 @@
               },
               5: {
                 fontFamily: "Inter",
-                fontWeight: "SemiBold",
+                fontWeight: "Semi Bold",
                 lineHeight: "150%",
                 fontSize: 16,
                 letterSpacing: "0px"
@@ -596,7 +596,7 @@
               },
               8: {
                 fontFamily: "Inter",
-                fontWeight: "SemiBold",
+                fontWeight: "Semi Bold",
                 lineHeight: "150%",
                 fontSize: 14,
                 letterSpacing: "0px"
@@ -617,7 +617,7 @@
               },
               11: {
                 fontFamily: "Inter",
-                fontWeight: "SemiBold",
+                fontWeight: "Semi Bold",
                 lineHeight: "150%",
                 fontSize: 12,
                 letterSpacing: "0px"
@@ -808,7 +808,7 @@
                 borderRadius: 8,
                 typography: {
                   fontFamily: "Inter",
-                  fontWeight: "SemiBold",
+                  fontWeight: "Semi Bold",
                   lineHeight: "100%",
                   fontSize: 18,
                   letterSpacing: "0.3px"
@@ -961,7 +961,7 @@
                 300: "Light",
                 400: "Regular",
                 500: "Medium",
-                600: "SemiBold",
+                600: "Semi Bold",
                 700: "Bold",
                 800: "ExtraBold",
                 900: "Black"
@@ -1047,49 +1047,49 @@
               heading: {
                 1: {
                   fontFamily: "Inter",
-                  fontWeight: "SemiBold",
+                  fontWeight: "Semi Bold",
                   lineHeight: "110%",
                   fontSize: 64,
                   letterSpacing: "0px"
                 },
                 2: {
                   fontFamily: "Inter",
-                  fontWeight: "SemiBold",
+                  fontWeight: "Semi Bold",
                   lineHeight: "110%",
                   fontSize: 56,
                   letterSpacing: "-1.5px"
                 },
                 3: {
                   fontFamily: "Inter",
-                  fontWeight: "SemiBold",
+                  fontWeight: "Semi Bold",
                   lineHeight: "110%",
                   fontSize: 48,
                   letterSpacing: "-1.5px"
                 },
                 4: {
                   fontFamily: "Inter",
-                  fontWeight: "SemiBold",
+                  fontWeight: "Semi Bold",
                   lineHeight: "110%",
                   fontSize: 40,
                   letterSpacing: "-1.5px"
                 },
                 5: {
                   fontFamily: "Inter",
-                  fontWeight: "SemiBold",
+                  fontWeight: "Semi Bold",
                   lineHeight: "130%",
                   fontSize: 36,
                   letterSpacing: "-1.5px"
                 },
                 6: {
                   fontFamily: "Inter",
-                  fontWeight: "SemiBold",
+                  fontWeight: "Semi Bold",
                   lineHeight: "130%",
                   fontSize: 32,
                   letterSpacing: "0px"
                 },
                 7: {
                   fontFamily: "Inter",
-                  fontWeight: "SemiBold",
+                  fontWeight: "Semi Bold",
                   lineHeight: "130%",
                   fontSize: 22,
                   letterSpacing: "0px"
@@ -1105,7 +1105,7 @@
                 },
                 2: {
                   fontFamily: "Inter",
-                  fontWeight: "SemiBold",
+                  fontWeight: "Semi Bold",
                   lineHeight: "130%",
                   fontSize: 32,
                   letterSpacing: "0px"
@@ -1126,7 +1126,7 @@
                 },
                 5: {
                   fontFamily: "Inter",
-                  fontWeight: "SemiBold",
+                  fontWeight: "Semi Bold",
                   lineHeight: "130%",
                   fontSize: 22,
                   letterSpacing: "0px"
@@ -1147,7 +1147,7 @@
                 },
                 8: {
                   fontFamily: "Inter",
-                  fontWeight: "SemiBold",
+                  fontWeight: "Semi Bold",
                   lineHeight: "150%",
                   fontSize: 20,
                   letterSpacing: "0px"
@@ -1168,7 +1168,7 @@
                 },
                 11: {
                   fontFamily: "Inter",
-                  fontWeight: "SemiBold",
+                  fontWeight: "Semi Bold",
                   lineHeight: "140%",
                   fontSize: 18,
                   letterSpacing: "0px"
@@ -1191,7 +1191,7 @@
                 },
                 2: {
                   fontFamily: "Inter",
-                  fontWeight: "SemiBold",
+                  fontWeight: "Semi Bold",
                   lineHeight: "150%",
                   fontSize: 22,
                   letterSpacing: "0px"
@@ -1212,7 +1212,7 @@
                 },
                 5: {
                   fontFamily: "Inter",
-                  fontWeight: "SemiBold",
+                  fontWeight: "Semi Bold",
                   lineHeight: "150%",
                   fontSize: 20,
                   letterSpacing: "0px"
@@ -1233,7 +1233,7 @@
                 },
                 8: {
                   fontFamily: "Inter",
-                  fontWeight: "SemiBold",
+                  fontWeight: "Semi Bold",
                   lineHeight: "150%",
                   fontSize: 18,
                   letterSpacing: "0px"
@@ -1256,7 +1256,7 @@
                 },
                 2: {
                   fontFamily: "Inter",
-                  fontWeight: "SemiBold",
+                  fontWeight: "Semi Bold",
                   lineHeight: "150%",
                   fontSize: 20,
                   letterSpacing: "0px"
@@ -1277,7 +1277,7 @@
                 },
                 5: {
                   fontFamily: "Inter",
-                  fontWeight: "SemiBold",
+                  fontWeight: "Semi Bold",
                   lineHeight: "140%",
                   fontSize: 16,
                   letterSpacing: "0px"
@@ -1298,7 +1298,7 @@
                 },
                 8: {
                   fontFamily: "Inter",
-                  fontWeight: "SemiBold",
+                  fontWeight: "Semi Bold",
                   lineHeight: "140%",
                   fontSize: 14,
                   letterSpacing: "0px"
@@ -1337,21 +1337,21 @@
               button: {
                 1: {
                   fontFamily: "Inter",
-                  fontWeight: "SemiBold",
+                  fontWeight: "Semi Bold",
                   lineHeight: "100%",
                   fontSize: 18,
                   letterSpacing: "0.3px"
                 },
                 2: {
                   fontFamily: "Inter",
-                  fontWeight: "SemiBold",
+                  fontWeight: "Semi Bold",
                   lineHeight: "100%",
                   fontSize: 16,
                   letterSpacing: "0.3px"
                 },
                 3: {
                   fontFamily: "Inter",
-                  fontWeight: "SemiBold",
+                  fontWeight: "Semi Bold",
                   lineHeight: "100%",
                   fontSize: 14,
                   letterSpacing: "0.2px"
@@ -1390,7 +1390,7 @@
                 },
                 2: {
                   fontFamily: "Inter",
-                  fontWeight: "SemiBold",
+                  fontWeight: "Semi Bold",
                   lineHeight: "150%",
                   fontSize: 18,
                   letterSpacing: "0px"
@@ -1411,7 +1411,7 @@
                 },
                 5: {
                   fontFamily: "Inter",
-                  fontWeight: "SemiBold",
+                  fontWeight: "Semi Bold",
                   lineHeight: "150%",
                   fontSize: 16,
                   letterSpacing: "0px"
@@ -1432,7 +1432,7 @@
                 },
                 8: {
                   fontFamily: "Inter",
-                  fontWeight: "SemiBold",
+                  fontWeight: "Semi Bold",
                   lineHeight: "150%",
                   fontSize: 14,
                   letterSpacing: "0px"
@@ -1453,7 +1453,7 @@
                 },
                 11: {
                   fontFamily: "Inter",
-                  fontWeight: "SemiBold",
+                  fontWeight: "Semi Bold",
                   lineHeight: "150%",
                   fontSize: 12,
                   letterSpacing: "0px"
@@ -1674,16 +1674,16 @@
                   ]
                     },
                     fontWeight: {
-                      $value: "SemiBold",
+                      $value: "Semi Bold",
                       $type: "fontWeight",
-                      value: "SemiBold",
+                      value: "Semi Bold",
                       type: "fontWeights",
                       filePath: "tokens/converted-tokens.json",
                       isSource: true,
                       original: {
-                        $value: "SemiBold",
+                        $value: "Semi Bold",
                         $type: "fontWeight",
-                        value: "SemiBold",
+                        value: "Semi Bold",
                         type: "fontWeights"
                       },
                       name: "ds-semantic-font-button-1-font-weight",
