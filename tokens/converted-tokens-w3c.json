@@ -1868,6 +1868,10 @@
             "letterSpacing": {
               "$value": "0px",
               "$type": "letterSpacing"
+            },
+            "textCase": {
+              "$value": "Uppercase",
+              "$type": "textCase"
             }
           },
           "10": {

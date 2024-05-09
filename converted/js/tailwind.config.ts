@@ -606,7 +606,8 @@
                 fontWeight: "Medium",
                 lineHeight: "150%",
                 fontSize: 14,
-                letterSpacing: "0px"
+                letterSpacing: "0px",
+                textCase: "Uppercase"
               },
               10: {
                 fontFamily: "Inter",
@@ -1443,7 +1444,8 @@
                   fontWeight: "Medium",
                   lineHeight: "150%",
                   fontSize: 14,
-                  letterSpacing: "0px"
+                  letterSpacing: "0px",
+                  textCase: "Uppercase"
                 },
                 10: {
                   fontFamily: "Inter",
