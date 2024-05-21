@@ -207,7 +207,7 @@
                 y: 40,
                 blur: 20,
                 spread: 0,
-                color: "#10121190",
+                color: "#101211e6",
                 type: "innerShadow"
               }
             },
@@ -217,7 +217,7 @@
                 y: 0,
                 blur: 6,
                 spread: 1,
-                color: "#f2f4f725",
+                color: "#f2f4f740",
                 type: "dropShadow"
               },
               default: [
@@ -226,7 +226,7 @@
                   y: 1,
                   blur: 3,
                   spread: 0,
-                  color: "#10182810",
+                  color: "#1018281a",
                   type: "dropShadow"
                 },
             {
@@ -234,7 +234,7 @@
                   y: 1,
                   blur: 2,
                   spread: 0,
-                  color: "#10182820",
+                  color: "#10182833",
                   type: "dropShadow"
                 }
           ]
@@ -246,7 +246,7 @@
                   y: 2,
                   blur: 8,
                   spread: 0,
-                  color: "#ffffff30",
+                  color: "#ffffff4d",
                   type: "innerShadow"
                 },
             {
@@ -254,7 +254,7 @@
                   y: -2,
                   blur: 8,
                   spread: 0,
-                  color: "#00000030",
+                  color: "#0000004d",
                   type: "innerShadow"
                 },
             {
@@ -262,7 +262,7 @@
                   y: 2,
                   blur: 10,
                   spread: 0,
-                  color: "#00000050",
+                  color: "#00000080",
                   type: "dropShadow"
                 },
             {
@@ -270,7 +270,7 @@
                   y: -2,
                   blur: 10,
                   spread: 0,
-                  color: "#ffffff10",
+                  color: "#ffffff1a",
                   type: "dropShadow"
                 }
           ],
@@ -280,7 +280,7 @@
                   y: -2,
                   blur: 8,
                   spread: 0,
-                  color: "#00000030",
+                  color: "#0000004d",
                   type: "innerShadow"
                 },
             {
@@ -288,7 +288,7 @@
                   y: 2,
                   blur: 10,
                   spread: 0,
-                  color: "#00000050",
+                  color: "#00000066",
                   type: "dropShadow"
                 }
           ]
@@ -1133,7 +1133,7 @@
                   y: "40",
                   blur: "20",
                   spread: "0",
-                  color: "#10121190",
+                  color: "rgba(#101211, 0.90)",
                   type: "innerShadow"
                 }
               },
@@ -1143,7 +1143,7 @@
                   y: "0",
                   blur: "6",
                   spread: "1",
-                  color: "#f2f4f725",
+                  color: "rgba(#f2f4f7, 0.25)",
                   type: "dropShadow"
                 },
                 default: [
@@ -1152,7 +1152,7 @@
                     y: "1",
                     blur: "3",
                     spread: "0",
-                    color: "#10182810",
+                    color: "rgba(#101828, 0.10)",
                     type: "dropShadow"
                   },
               {
@@ -1160,7 +1160,7 @@
                     y: "1",
                     blur: "2",
                     spread: "0",
-                    color: "#10182820",
+                    color: "rgba(#101828, 0.20)",
                     type: "dropShadow"
                   }
             ]
@@ -1172,7 +1172,7 @@
                     y: "2",
                     blur: "8",
                     spread: "0",
-                    color: "#ffffff30",
+                    color: "rgba(#ffffff, 0.30)",
                     type: "innerShadow"
                   },
               {
@@ -1180,7 +1180,7 @@
                     y: "-2",
                     blur: "8",
                     spread: "0",
-                    color: "#00000030",
+                    color: "rgba(#000000, 0.30)",
                     type: "innerShadow"
                   },
               {
@@ -1188,7 +1188,7 @@
                     y: "2",
                     blur: "10",
                     spread: "0",
-                    color: "#00000050",
+                    color: "rgba(#000000, 0.50)",
                     type: "dropShadow"
                   },
               {
@@ -1196,7 +1196,7 @@
                     y: "-2",
                     blur: "10",
                     spread: "0",
-                    color: "#ffffff10",
+                    color: "rgba(#ffffff, 0.10)",
                     type: "dropShadow"
                   }
             ],
@@ -1206,7 +1206,7 @@
                     y: "-2",
                     blur: "8",
                     spread: "0",
-                    color: "#00000030",
+                    color: "rgba(#000000, 0.30)",
                     type: "innerShadow"
                   },
               {
@@ -1214,7 +1214,7 @@
                     y: "2",
                     blur: "10",
                     spread: "0",
-                    color: "#00000050",
+                    color: "rgba(#000000, 0.40)",
                     type: "dropShadow"
                   }
             ]
