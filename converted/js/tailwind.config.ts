@@ -204,11 +204,11 @@
             dropdown: {
               default: {
                 x: 0,
-                y: 40,
+                y: 4,
                 blur: 20,
                 spread: 0,
                 color: "#101211e6",
-                type: "innerShadow"
+                type: "dropShadow"
               }
             },
             toggle: {
@@ -1130,11 +1130,11 @@
               dropdown: {
                 default: {
                   x: "0",
-                  y: "40",
+                  y: "4",
                   blur: "20",
                   spread: "0",
                   color: "rgba(#101211, 0.90)",
-                  type: "innerShadow"
+                  type: "dropShadow"
                 }
               },
               toggle: {

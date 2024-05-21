@@ -642,11 +642,11 @@
           "default": {
             "$value": {
               "offsetX": 0,
-              "offsetY": 40,
+              "offsetY": 4,
               "blur": 20,
               "spread": 0,
               "color": "#101211e6",
-              "$type": "innerShadow"
+              "$type": "shadow"
             },
             "$type": "shadow"
           }
