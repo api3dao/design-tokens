@@ -194,17 +194,104 @@
             m: "1024px",
             l: "1300px",
             xl: "1600px"
+          },
+          opacity: {
+            40: "40%"
           }
         },
         semantic: {
           shadow: {
             dropdown: {
-              x: "0px",
-              y: "4px",
-              blur: "20px",
-              spread: "0px",
-              color: "#10121190",
-              type: "dropShadow"
+              default: {
+                x: 0,
+                y: 40,
+                blur: 20,
+                spread: 0,
+                color: "#10121190",
+                type: "innerShadow"
+              }
+            },
+            toggle: {
+              focus: {
+                x: 0,
+                y: 0,
+                blur: 6,
+                spread: 1,
+                color: "#f2f4f725",
+                type: "dropShadow"
+              },
+              default: [
+            {
+                  x: 0,
+                  y: 1,
+                  blur: 3,
+                  spread: 0,
+                  color: "#10182810",
+                  type: "dropShadow"
+                },
+            {
+                  x: 0,
+                  y: 1,
+                  blur: 2,
+                  spread: 0,
+                  color: "#10182820",
+                  type: "dropShadow"
+                }
+          ]
+            },
+            switch: {
+              default: [
+            {
+                  x: 2,
+                  y: 2,
+                  blur: 8,
+                  spread: 0,
+                  color: "#ffffff30",
+                  type: "innerShadow"
+                },
+            {
+                  x: -2,
+                  y: -2,
+                  blur: 8,
+                  spread: 0,
+                  color: "#00000030",
+                  type: "innerShadow"
+                },
+            {
+                  x: 2,
+                  y: 2,
+                  blur: 10,
+                  spread: 0,
+                  color: "#00000050",
+                  type: "dropShadow"
+                },
+            {
+                  x: -2,
+                  y: -2,
+                  blur: 10,
+                  spread: 0,
+                  color: "#ffffff10",
+                  type: "dropShadow"
+                }
+          ],
+              disabled: [
+            {
+                  x: -2,
+                  y: -2,
+                  blur: 8,
+                  spread: 0,
+                  color: "#00000030",
+                  type: "innerShadow"
+                },
+            {
+                  x: 2,
+                  y: 2,
+                  blur: 10,
+                  spread: 0,
+                  color: "#00000050",
+                  type: "dropShadow"
+                }
+          ]
             }
           },
           font: {
@@ -762,7 +849,8 @@
                 1: "linear-gradient (45deg, #030303 0%, #252726 100%)",
                 2: "linear-gradient (45deg, #7CE3CB 0%, #7963B2 100%)",
                 3: "linear-gradient (45deg, #C3C4C3 0%, #F3F3F3 100%)",
-                4: "linear-gradient (135deg, #f3f3f340 0%, #20202099 100%)"
+                4: "linear-gradient (135deg, #f3f3f340 0%, #20202099 100%)",
+                5: "lnear-gradient (135deg, #48e8c0 0%, #48e8c000 100%), 40%"
               },
               green: {
                 1: "linear-gradient (135deg, #f3f3f3 0%, #4BC79A 100%)",
@@ -1032,17 +1120,104 @@
               m: "1024px",
               l: "1300px",
               xl: "1600px"
+            },
+            opacity: {
+              40: "40%"
             }
           },
           semantic: {
             shadow: {
               dropdown: {
-                x: "0px",
-                y: "4px",
-                blur: "20px",
-                spread: "0px",
-                color: "#10121190",
-                type: "dropShadow"
+                default: {
+                  x: "0",
+                  y: "40",
+                  blur: "20",
+                  spread: "0",
+                  color: "#10121190",
+                  type: "innerShadow"
+                }
+              },
+              toggle: {
+                focus: {
+                  x: "0",
+                  y: "0",
+                  blur: "6",
+                  spread: "1",
+                  color: "#f2f4f725",
+                  type: "dropShadow"
+                },
+                default: [
+              {
+                    x: "0",
+                    y: "1",
+                    blur: "3",
+                    spread: "0",
+                    color: "#10182810",
+                    type: "dropShadow"
+                  },
+              {
+                    x: "0",
+                    y: "1",
+                    blur: "2",
+                    spread: "0",
+                    color: "#10182820",
+                    type: "dropShadow"
+                  }
+            ]
+              },
+              switch: {
+                default: [
+              {
+                    x: "2",
+                    y: "2",
+                    blur: "8",
+                    spread: "0",
+                    color: "#ffffff30",
+                    type: "innerShadow"
+                  },
+              {
+                    x: "-2",
+                    y: "-2",
+                    blur: "8",
+                    spread: "0",
+                    color: "#00000030",
+                    type: "innerShadow"
+                  },
+              {
+                    x: "2",
+                    y: "2",
+                    blur: "10",
+                    spread: "0",
+                    color: "#00000050",
+                    type: "dropShadow"
+                  },
+              {
+                    x: "-2",
+                    y: "-2",
+                    blur: "10",
+                    spread: "0",
+                    color: "#ffffff10",
+                    type: "dropShadow"
+                  }
+            ],
+                disabled: [
+              {
+                    x: "-2",
+                    y: "-2",
+                    blur: "8",
+                    spread: "0",
+                    color: "#00000030",
+                    type: "innerShadow"
+                  },
+              {
+                    x: "2",
+                    y: "2",
+                    blur: "10",
+                    spread: "0",
+                    color: "#00000050",
+                    type: "dropShadow"
+                  }
+            ]
               }
             },
             font: {
@@ -1600,7 +1775,8 @@
                   1: "linear-gradient (45deg, #030303 0%, #252726 100%)",
                   2: "linear-gradient (45deg, #7CE3CB 0%, #7963B2 100%)",
                   3: "linear-gradient (45deg, #C3C4C3 0%, #F3F3F3 100%)",
-                  4: "linear-gradient (135deg, rgba(#F3F3F3, .25) 0%, rgba(#202020, .60) 100%)"
+                  4: "linear-gradient (135deg, rgba(#F3F3F3, .25) 0%, rgba(#202020, .60) 100%)",
+                  5: "lnear-gradient (135deg, rgba(#48e8c0, 1) 0%, rgba(#48e8c0, 0) 100%), 40%"
                 },
                 green: {
                   1: "linear-gradient (135deg, #f3f3f3 0%, #4BC79A 100%)",
