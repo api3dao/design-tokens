@@ -18,7 +18,7 @@
     "token-transformer": "^0.0.33"
   },
   "devDependencies": {
-    "@types/node": "^20.11.30",
+    "@types/node": "^22.13.8",
     "typescript": "^5.4.3"
   }
 }
