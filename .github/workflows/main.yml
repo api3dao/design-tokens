@@ -2,7 +2,9 @@ name: Convert incoming Figma tokens to variables
 
 on:
   push:
-    branches: [main]
+    branches:
+      - main
+  pull_request:
 
 # Sets permissions to allow commiting to the repository
 permissions:
