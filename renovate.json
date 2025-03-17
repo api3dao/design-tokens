@@ -29,6 +29,6 @@
   "lockFileMaintenance": {
     "enabled": false
   },
-  "reviewers": ["Anboias"],
+  "reviewers": ["Siegrift"],
   "dependencyDashboard": false
 }
