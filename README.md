@@ -37,15 +37,6 @@ Repositories can import the latest CSS variables to ensure UI components are sty
 import 'design-tokens/converted/js/tokens.js';
 ```
 
-## Initial Setup
-
-- Clone repo locally
-- Run npm install
-- Install style-dictionary globally: `npm install -g style-dictionary`
-- Generate the styled dictionary setup: `style-dictionary init basic`
-- Delete converted and tokens folders
-- Replace content of config.json with the one from here: https://amzn.github.io/style-dictionary/#/config (remove android part and replace scss with css)
-
 ## Contributing
 
 Changes to design tokens should be made in the Figma file. This repository is for distribution purposes only and does not accept direct modifications to the design tokens.

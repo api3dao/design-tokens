@@ -7,6 +7,11 @@
       "enabled": false
     },
     {
+      "matchPackageNames": ["style-dictionary", "sd-tailwindcss-transformer"],
+      "matchUpdateTypes": ["major"],
+      "enabled": false
+    },
+    {
       "matchDepTypes": ["packageManager"],
       "matchPackageNames": ["pnpm"],
       "extends": ["schedule:quarterly"]
