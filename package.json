@@ -13,7 +13,7 @@
     "rename-tailwind-file": "mv converted/js/tailwind.config.js converted/js/tailwind.config.ts"
   },
   "dependencies": {
-    "sd-tailwindcss-transformer": "^1.4.1",
+    "sd-tailwindcss-transformer": "^2.1.0",
     "style-dictionary": "^4.3.3",
     "token-transformer": "^0.0.33"
   },
