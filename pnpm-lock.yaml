@@ -9,7 +9,7 @@ importers:
   .:
     dependencies:
       sd-tailwindcss-transformer:
-        specifier: ^1.4.1
+        specifier: ^1.4.6
         version: 1.4.6(style-dictionary@3.9.2)
       style-dictionary:
         specifier: ^3.9.2
